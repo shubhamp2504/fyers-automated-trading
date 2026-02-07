@@ -62,8 +62,9 @@ class FyersMarketData:
             data = {
                 "symbol": symbol,
                 "resolution": resolution,
-                "date_from": date_from,
-                "date_to": date_to,
+                "range_from": date_from,  # Fixed: use range_from instead of date_from
+                "range_to": date_to,      # Fixed: use range_to instead of date_to
+                "date_format": "1",       # Fixed: add required date_format parameter
                 "cont_flag": cont_flag
             }
             

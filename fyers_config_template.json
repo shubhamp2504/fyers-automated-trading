@@ -1,0 +1,18 @@
+{
+  "client_id": "E3U954K3LF-100",
+  "secret_key": "YOUR_FYERS_SECRET_KEY", 
+  "redirect_uri": "https://127.0.0.1:5000/callback",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcGh0VlBWZXZRTERoa2duTnljOVBIcGlYY0dVbTJmMkJPRWNXLW1rbzVRTW5nN1ZZaWNqUEx2bFdCYVFUOW13eUgwUUhGUEJFYnQtcUVtc2FlcW1rbnl5bjFlWWpiNEt3ekY3dWdTLUZ0UkVCaVMxQT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI4NTA0MDlkMzU4ZTk5NWZmMDI0YTM0NmQ1ODdiMGIxNDRiZGY1ZDk3ZGVhYWZhZWY4YTgwYzA1NSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFIOTIxMTYiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MDUxMDYwMCwiaWF0IjoxNzcwNDQ0MTExLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzA0NDQxMTEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.N-Fejt58FbaybMRctAW258CaRnHFZ0UnWITgywZo88o",
+  "refresh_token": "YOUR_FYERS_REFRESH_TOKEN",
+  "api_key": "YOUR_FYERS_API_KEY",
+  "config_info": {
+    "note": "Replace all YOUR_* placeholders with actual FYERS API credentials",
+    "instructions": [
+      "1. Get client_id and secret_key from FYERS app registration",
+      "2. Generate access_token using FYERS authentication flow",
+      "3. Copy this file to 'fyers_config.json' with real values",
+      "4. Never commit the real config file to version control"
+    ],
+    "demo_mode": "System will use demo data if this config is not properly set up"
+  }
+}

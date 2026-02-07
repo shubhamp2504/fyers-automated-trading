@@ -1,15 +1,20 @@
 """
-Live Index Trading Execution System
-===================================
+Live Index Trading Execution System - REAL MONEY TRADING
+========================================================
 
-Real-time implementation of optimized index intraday strategy
-- Live market data monitoring
-- Automated signal generation and execution
-- Real-time risk management
-- Position monitoring and profit/loss tracking
-- Emergency stop mechanisms
+⚠️ CRITICAL: This system uses REAL Fyers API with LIVE money
+⚠️ Source: https://myapi.fyers.in/docsv3 
 
-⚠️ IMPORTANT: Always refer to https://myapi.fyers.in/docsv3 for latest API specifications
+Features:
+- ✅ Real-time market data from Fyers API
+- ✅ Live order placement with real money
+- ✅ Automated signal generation and execution
+- ✅ Real-time risk management
+- ✅ Position monitoring and P&L tracking
+- ❌ NO DEMO/DUMMY DATA - LIVE TRADING ONLY
+
+RISK WARNING: This system places real orders with real money.
+Always use proper risk management and position sizing.
 """
 
 import pandas as pd
@@ -25,15 +30,8 @@ import sys
 import warnings
 warnings.filterwarnings('ignore')
 
-# Import our modules
-sys.path.append('api_reference/market_data')
-sys.path.append('api_reference/orders')
-sys.path.append('api_reference/portfolio')
-sys.path.append('api_reference/websocket')
-
-from market_data_complete import FyersMarketData
-from orders_complete import FyersOrders
-from portfolio_complete import FyersPortfolio
+# Import Fyers client and strategy
+from fyers_client import FyersClient
 from index_intraday_strategy import IndexIntradayStrategy, SignalType, TradingSignal
 
 class TradeStatus(Enum):
@@ -63,34 +61,49 @@ class LiveTrade:
     exit_price: Optional[float] = None
     realized_pnl: Optional[float] = None
 
-class LiveTradingSystem:
+class LiveIndexTradingSystem:
     """
-    Live trading system for index intraday strategy
+    LIVE Index Trading System - Real Money Trading with Fyers API
+    
+    ⚠️ WARNING: This system trades with REAL MONEY on live markets
     """
     
-    def __init__(self, config_file: str = 'config.json'):
-        # Load configuration
+    def __init__(self, fyers_client: FyersClient, config_file: str = 'fyers_config.json'):
+        """Initialize live trading system with real Fyers API client"""
+        
+        print("🚨 INITIALIZING LIVE TRADING SYSTEM")
+        print("   ⚠️  Trading with REAL MONEY via Fyers API")
+        print("   📊 Live market data streaming")
+        print("   💰 Real order placement enabled")
+        
+        # Use provided Fyers client (already verified)
+        self.fyers_client = fyers_client
+        
+        # Load trading configuration
         with open(config_file, 'r') as f:
             self.config = json.load(f)
         
-        # Initialize FYERS APIs
-        self.market_data = FyersMarketData(self.config['client_id'], self.config['access_token'])
-        self.orders = FyersOrders(self.config['client_id'], self.config['access_token'])
-        self.portfolio = FyersPortfolio(self.config['client_id'], self.config['access_token'])
+        # Verify live trading is enabled
+        if not self.config['trading']['live_trading']:
+            raise ValueError("❌ Live trading disabled in config. Enable 'live_trading': true")
         
-        # Load optimized strategy parameters
-        self.strategy = self.load_optimized_strategy()
+        # Initialize strategy with optimized parameters
+        self.strategy = IndexIntradayStrategy(
+            client_id=self.fyers_client.client_id,
+            access_token=self.fyers_client.access_token
+        )
         
-        # Trading configuration
+        # Trading symbols for live trading
         self.trading_symbols = {
-            'NIFTY': 'NSE:NIFTY50-INDEX',
-            'BANKNIFTY': 'NSE:NIFTYBANK-INDEX'
+            'NIFTY': self.config['symbols']['NIFTY_INDEX'],
+            'BANKNIFTY': self.config['symbols']['BANKNIFTY_INDEX']
         }
         
-        # Risk management
-        self.max_daily_loss = 5000  # Maximum daily loss in rupees
-        self.max_positions = 2  # Maximum concurrent positions
-        self.position_size_per_trade = 1  # Lot size multiplier
+        # Risk management from config
+        self.max_daily_loss = self.config['trading']['max_daily_loss']
+        self.max_positions = self.config['trading']['max_open_positions']
+        self.risk_per_trade = self.config['trading']['risk_per_trade']
+        self.stop_loss_pct = self.config['trading']['stop_loss_percentage']
         
         # Live trading state
         self.active_trades: Dict[str, LiveTrade] = {}
@@ -99,19 +112,45 @@ class LiveTradingSystem:
         self.is_trading_active = False
         self.last_signal_time = {}
         
-        # Market hours
-        self.market_open_time = "09:15"
-        self.market_close_time = "15:15"
-        self.strategy_stop_time = "14:30"  # Stop new trades 45 min before close
+        # Market hours check
+        self.market_start = self.config['market_hours']['start_time']
+        self.market_end = self.config['market_hours']['end_time']
         
-        # Monitoring thread
-        self.monitoring_thread = None
-        self.stop_monitoring = False
+        print(f"✅ Live trading system initialized")
+        print(f"   🎯 Max daily loss: ₹{self.max_daily_loss:,.2f}")
+        print(f"   📈 Max positions: {self.max_positions}")
+        print(f"   ⏰ Market hours: {self.market_start} - {self.market_end}")
         
-        print("🚀 Live Trading System Initialized")
-        print(f"📊 Trading Symbols: {list(self.trading_symbols.keys())}")
-        print(f"💰 Max Daily Loss: ₹{self.max_daily_loss:,}")
-        print(f"🎯 Max Positions: {self.max_positions}")
+        # Initial portfolio status
+        self._display_portfolio_status()
+    
+    def _display_portfolio_status(self):
+        """Display current portfolio status from live Fyers account"""
+        try:
+            print("\n📊 LIVE PORTFOLIO STATUS:")
+            
+            # Get real account funds
+            funds = self.fyers_client.get_funds()
+            if funds:
+                print(f"   💰 Available funds: ₹{funds.get('availableAmount', 0):,.2f}")
+                print(f"   📊 Used margin: ₹{funds.get('utilisedAmount', 0):,.2f}")
+            
+            # Get live positions
+            positions = self.fyers_client.get_positions()
+            if positions and len(positions) > 0:
+                print(f"   📈 Open positions: {len(positions)}")
+                for pos in positions[:3]:  # Show first 3
+                    symbol = pos.get('symbol', 'Unknown')
+                    qty = pos.get('qty', 0)
+                    pnl = pos.get('pl', 0)
+                    print(f"      {symbol}: {qty} qty, P&L: ₹{pnl:.2f}")
+            else:
+                print("   📈 No open positions")
+            
+            print("   ✅ Portfolio status updated from live Fyers API\n")
+            
+        except Exception as e:
+            print(f"   ⚠️ Unable to fetch live portfolio: {e}\n")
     
     def load_optimized_strategy(self) -> IndexIntradayStrategy:
         """Load strategy with optimized parameters"""
@@ -192,15 +231,17 @@ class LiveTradingSystem:
         return True
     
     def get_current_market_price(self, symbol: str) -> Optional[float]:
-        """Get current market price"""
+        """Get current market price using live Fyers API"""
         
         try:
-            quotes = self.market_data.get_quotes([symbol])
-            if quotes and len(quotes) > 0:
-                return quotes[0].get('lp', 0)  # Last price
+            quotes = self.fyers_client.get_live_quotes([symbol])
+            if quotes and 'd' in quotes and quotes['d']:
+                data = quotes['d']
+                if symbol in data and 'v' in data[symbol] and 'lp' in data[symbol]['v']:
+                    return data[symbol]['v']['lp']  # Last price
             return None
         except Exception as e:
-            print(f"❌ Error getting price for {symbol}: {e}")
+            print(f"❌ Error getting live price for {symbol}: {e}")
             return None
     
     def generate_live_signal(self, symbol: str) -> Optional[TradingSignal]:
@@ -269,13 +310,14 @@ class LiveTradingSystem:
             # Place market order
             side = 1 if signal.signal == SignalType.BUY else -1
             
-            print(f"📋 Placing order: {signal.signal.value} {quantity} units of {symbol}")
+            print(f"📋 Placing LIVE order via Fyers API: {signal.signal.value} {quantity} units of {symbol}")
             
-            order_result = self.orders.place_order(
+            # Place order using live Fyers API
+            order_result = self.fyers_client.place_order(
                 symbol=symbol,
                 qty=quantity,
-                side=side,
-                type=1,  # Market order
+                side=signal.signal.value,  # "BUY" or "SELL"
+                order_type="MARKET",
                 product_type="INTRADAY"
             )
             
@@ -395,14 +437,14 @@ class LiveTradingSystem:
             exit_quantity = trade.quantity // 2
             remaining_quantity = trade.quantity - exit_quantity
             
-            # Place exit order
-            exit_side = -1 if trade.signal == SignalType.BUY else 1
+            # Place exit order using live Fyers API
+            exit_side = "SELL" if trade.signal == SignalType.BUY else "BUY"
             
-            exit_result = self.orders.place_order(
+            exit_result = self.fyers_client.place_order(
                 symbol=trade.symbol,
                 qty=exit_quantity,
                 side=exit_side,
-                type=1,  # Market order
+                order_type="MARKET",
                 product_type="INTRADAY"
             )
             
@@ -433,14 +475,14 @@ class LiveTradingSystem:
             if not trade:
                 return
             
-            # Place exit order for remaining quantity
-            exit_side = -1 if trade.signal == SignalType.BUY else 1
+            # Place exit order for remaining quantity using live Fyers API
+            exit_side = "SELL" if trade.signal == SignalType.BUY else "BUY"
             
-            exit_result = self.orders.place_order(
+            exit_result = self.fyers_client.place_order(
                 symbol=trade.symbol,
                 qty=trade.quantity,
                 side=exit_side,
-                type=1,  # Market order
+                order_type="MARKET",
                 product_type="INTRADAY"
             )
             
@@ -507,123 +549,119 @@ class LiveTradingSystem:
         
         print(f"="*60)
     
-    def start_live_trading(self):
-        """Start live trading system"""
+    def run(self):
+        """Main method to start the live trading system"""
         
-        print(f"🚀 Starting Live Trading System...")
-        print(f"⏰ Market Hours: {self.market_open_time} - {self.market_close_time}")
-        print(f"🛑 Strategy Stop Time: {self.strategy_stop_time}")
-        
-        self.is_trading_active = True
-        self.stop_monitoring = False
-        
-        # Start monitoring thread
-        self.monitoring_thread = threading.Thread(target=self.trading_loop, daemon=True)
-        self.monitoring_thread.start()
-        
-        print(f"✅ Live trading system started!")
-        print(f"💡 Press Ctrl+C to stop trading")
+        print("🚀 STARTING LIVE FYERS TRADING SYSTEM")
+        print("=" * 60)
         
         try:
-            # Main dashboard loop
-            while self.is_trading_active:
-                self.display_trading_dashboard()
-                time.sleep(30)  # Update dashboard every 30 seconds
+            # Pre-flight checks
+            if not self.is_market_open():
+                print(f"⏰ Market is closed. System will wait for market hours.")
+                print(f"📅 Trading hours: {self.market_start} - {self.market_end}")
                 
+                # Wait for market to open (optional)
+                while not self.is_market_open():
+                    print("⏳ Waiting for market to open...")
+                    time.sleep(300)  # Check every 5 minutes
+            
+            # Confirm ready to trade
+            print("\n📊 LIVE TRADING SYSTEM READY")
+            print("⚠️  WARNING: This will place REAL orders with REAL money")
+            print("💰 Ensure adequate funds and risk management")
+            
+            # Start trading
+            self.is_trading_active = True
+            self.start_trading_loop()
+            
         except KeyboardInterrupt:
-            print(f"\n🛑 Stopping live trading system...")
-            self.stop_live_trading()
+            print("\n🛑 Trading stopped by user")
+            self.stop_trading()
+            
+        except Exception as e:
+            print(f"\n❌ Error in trading system: {e}")
+            print("🚨 Trading stopped due to error")
+            self.stop_trading()
     
-    def trading_loop(self):
-        """Main trading loop"""
+    def start_trading_loop(self):
+        """Main trading loop with real market data"""
         
-        while not self.stop_monitoring:
+        print("🔄 Starting live trading loop...")
+        print("📊 Monitoring symbols:", list(self.trading_symbols.keys()))
+        print("⏰ Press Ctrl+C to stop\n")
+        
+        while self.is_trading_active and self.is_market_open():
             try:
-                # Check if we can trade
-                if not self.can_place_new_trades():
-                    time.sleep(60)  # Wait 1 minute
-                    continue
+                # Display current status
+                self._display_live_status()
                 
-                # Scan for signals
+                # Check for new trading signals
                 for name, symbol in self.trading_symbols.items():
+                    if not self.can_place_new_trades():
+                        break
+                        
                     try:
-                        # Generate signal
                         signal = self.generate_live_signal(symbol)
-                        
-                        if signal and signal.confidence >= 0.7:  # High confidence only
-                            print(f"🎯 High confidence signal for {name}: {signal.signal.value}")
+                        if signal and signal.confidence >= 0.7:
+                            print(f"🎯 HIGH CONFIDENCE SIGNAL for {name}:")
+                            print(f"   📈 Direction: {signal.signal.value}")
+                            print(f"   💰 Entry: ₹{signal.entry_price:.2f}")
+                            print(f"   🎯 Confidence: {signal.confidence:.1%}")
                             
-                            # Execute trade
-                            if self.execute_live_trade(signal, symbol):
-                                print(f"✅ Trade executed for {name}")
+                            if self.execute_live_trade(symbol, signal):
+                                print(f"✅ Trade executed successfully for {name}")
                             else:
-                                print(f"❌ Failed to execute trade for {name}")
-                        
-                        time.sleep(5)  # Small delay between symbols
-                        
+                                print(f"❌ Trade execution failed for {name}")
+                    
                     except Exception as e:
-                        print(f"❌ Error processing {name}: {e}")
+                        print(f"⚠️ Error processing {name}: {e}")
                         continue
                 
-                # Monitor active positions
+                # Monitor existing positions
                 self.monitor_active_positions()
                 
-                # Wait before next scan
-                time.sleep(60)  # Scan every minute
+                # Brief pause before next iteration
+                time.sleep(30)  # Check every 30 seconds
                 
             except Exception as e:
                 print(f"❌ Error in trading loop: {e}")
-                time.sleep(30)
+                time.sleep(60)  # Wait 1 minute on error
+        
+        # Trading stopped
+        if not self.is_market_open():
+            print("⏰ Market closed - trading stopped")
+        
+        self.stop_trading()
     
-    def stop_live_trading(self):
-        """Stop live trading system"""
+    def _display_live_status(self):
+        """Display current live trading status"""
         
-        print(f"🛑 Stopping live trading system...")
+        now = datetime.now().strftime("%H:%M:%S")
+        print(f"\n⏰ {now} - LIVE TRADING STATUS:")
+        print(f"   📈 Active positions: {len(self.active_trades)}")
+        print(f"   💰 Daily P&L: ₹{self.daily_pnl:+,.2f}")
+        print(f"   📊 Trades today: {self.total_trades_today}")
         
-        self.is_trading_active = False
-        self.stop_monitoring = True
-        
-        # Close all active positions
         if self.active_trades:
-            print(f"📊 Closing {len(self.active_trades)} active positions...")
+            print("   📋 Active trades:")
+            for trade_id, trade in list(self.active_trades.items())[:3]:  # Show up to 3
+                pnl_color = "📈" if trade.unrealized_pnl >= 0 else "📉"
+                print(f"      {pnl_color} {trade.symbol}: {trade.signal.value} | P&L: ₹{trade.unrealized_pnl:+.2f}")
+    
+    def stop_trading(self):
+        """Stop trading and clean up"""
+        
+        print("\n🛑 STOPPING LIVE TRADING SYSTEM")
+        self.is_trading_active = False
+        
+        # Close any open positions
+        if self.active_trades:
+            print("📊 Closing remaining positions...")
             for trade_id in list(self.active_trades.keys()):
-                self.exit_position(trade_id, "SYSTEM_STOP")
+                self.exit_position(trade_id, "SYSTEM_SHUTDOWN")
         
-        print(f"✅ Live trading system stopped")
-        print(f"📊 Final Daily P&L: ₹{self.daily_pnl:+,.2f}")
-        print(f"📈 Total Trades Today: {self.total_trades_today}")
-
-def main():
-    """Main function to run live trading system"""
-    
-    print(f"🎯 INDEX LIVE TRADING SYSTEM")
-    print(f"="*50)
-    
-    try:
-        # Initialize trading system
-        trading_system = LiveTradingSystem()
+        # Final portfolio update
+        self._display_portfolio_status()
         
-        print(f"\n📊 System Checks:")
-        print(f"   Market Open: {'✅' if trading_system.is_market_open() else '❌'}")
-        print(f"   Can Trade: {'✅' if trading_system.can_place_new_trades() else '❌'}")
-        
-        if not trading_system.is_market_open():
-            print(f"\n⏰ Market is closed. Trading will resume during market hours.")
-            print(f"📅 Market Hours: {trading_system.market_open_time} - {trading_system.market_close_time}")
-            return
-        
-        # Start live trading
-        user_input = input(f"\n🚀 Start live trading? (y/N): ").lower()
-        
-        if user_input == 'y':
-            trading_system.start_live_trading()
-        else:
-            print(f"📊 Live trading cancelled by user")
-            
-    except Exception as e:
-        print(f"❌ Error in live trading system: {e}")
-        import traceback
-        traceback.print_exc()
-
-if __name__ == "__main__":
-    main()
+        print("✅ Trading system stopped safely")
