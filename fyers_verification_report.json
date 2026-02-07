@@ -1,0 +1,611 @@
+{
+  "verification_timestamp": "2026-02-07T11:50:06.359080",
+  "test_summary": {
+    "quotes_tested": 10,
+    "indices_tested": 10,
+    "historical_tested": 5,
+    "profile_success": true,
+    "funds_success": true,
+    "positions_success": true,
+    "orders_success": true
+  },
+  "detailed_results": {
+    "quotes": [
+      {
+        "symbol": "NSE:ITC-EQ",
+        "last_price": 325.8,
+        "volume": 68057745,
+        "high": 327.7,
+        "low": 308.3,
+        "open": 310,
+        "change": 15.6,
+        "change_percent": 5.03,
+        "bid": 325.8,
+        "ask": 0,
+        "prev_close": 310.2,
+        "timestamp": 1770445192
+      },
+      {
+        "symbol": "NSE:IOC-EQ",
+        "last_price": 175.2,
+        "volume": 34240417,
+        "high": 180.9,
+        "low": 173.28,
+        "open": 176.99,
+        "change": -0.57,
+        "change_percent": -0.32,
+        "bid": 0,
+        "ask": 175.2,
+        "prev_close": 175.77,
+        "timestamp": 1770445193
+      },
+      {
+        "symbol": "NSE:SAIL-EQ",
+        "last_price": 160.52,
+        "volume": 29587522,
+        "high": 161.3,
+        "low": 156.49,
+        "open": 158,
+        "change": 2.02,
+        "change_percent": 1.27,
+        "bid": 0,
+        "ask": 160.52,
+        "prev_close": 158.5,
+        "timestamp": 1770445193
+      },
+      {
+        "symbol": "NSE:CANBK-EQ",
+        "last_price": 147.31,
+        "volume": 21884724,
+        "high": 149.2,
+        "low": 144.86,
+        "open": 148,
+        "change": -0.98,
+        "change_percent": -0.66,
+        "bid": 0,
+        "ask": 147.31,
+        "prev_close": 148.29,
+        "timestamp": 1770445194
+      },
+      {
+        "symbol": "NSE:KOTAKBANK-EQ",
+        "last_price": 422.35,
+        "volume": 21228778,
+        "high": 424.65,
+        "low": 410.3,
+        "open": 411,
+        "change": 13.6,
+        "change_percent": 3.33,
+        "bid": 0,
+        "ask": 422.35,
+        "prev_close": 408.75,
+        "timestamp": 1770445194
+      },
+      {
+        "symbol": "NSE:POWERGRID-EQ",
+        "last_price": 292.75,
+        "volume": 19951107,
+        "high": 293.5,
+        "low": 289.4,
+        "open": 292.2,
+        "change": 3.4,
+        "change_percent": 1.18,
+        "bid": 292.75,
+        "ask": 0,
+        "prev_close": 289.35,
+        "timestamp": 1770445194
+      },
+      {
+        "symbol": "NSE:MOTHERSON-EQ",
+        "last_price": 118.1,
+        "volume": 18822881,
+        "high": 119.63,
+        "low": 116.05,
+        "open": 119,
+        "change": -2.89,
+        "change_percent": -2.39,
+        "bid": 118.1,
+        "ask": 0,
+        "prev_close": 120.99,
+        "timestamp": 1770445195
+      },
+      {
+        "symbol": "NSE:TATASTEEL-EQ",
+        "last_price": 197.06,
+        "volume": 18446912,
+        "high": 197.6,
+        "low": 194.37,
+        "open": 197.6,
+        "change": -0.7,
+        "change_percent": -0.35,
+        "bid": 0,
+        "ask": 197.06,
+        "prev_close": 197.76,
+        "timestamp": 1770445195
+      },
+      {
+        "symbol": "NSE:HDFCBANK-EQ",
+        "last_price": 941.1,
+        "volume": 18120272,
+        "high": 948.1,
+        "low": 937.6,
+        "open": 945,
+        "change": -8.6,
+        "change_percent": -0.91,
+        "bid": 941.1,
+        "ask": 0,
+        "prev_close": 949.7,
+        "timestamp": 1770445196
+      },
+      {
+        "symbol": "NSE:VEDL-EQ",
+        "last_price": 671.05,
+        "volume": 16866400,
+        "high": 673.35,
+        "low": 640.25,
+        "open": 643,
+        "change": 15.85,
+        "change_percent": 2.42,
+        "bid": 0,
+        "ask": 671.05,
+        "prev_close": 655.2,
+        "timestamp": 1770445196
+      }
+    ],
+    "indices": [
+      {
+        "symbol": "NSE:NIFTY50-INDEX",
+        "last_price": 25693.7,
+        "high": 25703.95,
+        "low": 25491.9,
+        "open": 25605.8,
+        "change": 50.9,
+        "change_percent": 0.2,
+        "prev_close": 25642.8,
+        "timestamp": 1770445196
+      },
+      {
+        "symbol": "NSE:NIFTYBANK-INDEX",
+        "last_price": 60120.55,
+        "high": 60149.9,
+        "low": 59644.55,
+        "open": 59967.1,
+        "change": 56.9,
+        "change_percent": 0.09,
+        "prev_close": 60063.65,
+        "timestamp": 1770445197
+      },
+      {
+        "symbol": "NSE:NIFTYIT-INDEX",
+        "last_price": 35611.05,
+        "high": 36105.85,
+        "low": 35211.95,
+        "open": 36079.85,
+        "change": -532.25,
+        "change_percent": -1.47,
+        "prev_close": 36143.3,
+        "timestamp": 1770445197
+      },
+      {
+        "symbol": "NSE:NIFTYFMCG-INDEX",
+        "last_price": 51882.75,
+        "high": 51935.55,
+        "low": 50383.9,
+        "open": 50667.85,
+        "change": 1151.1,
+        "change_percent": 2.27,
+        "prev_close": 50731.65,
+        "timestamp": 1770445198
+      },
+      {
+        "symbol": "NSE:NIFTYAUTO-INDEX",
+        "last_price": 27519.55,
+        "high": 27643.45,
+        "low": 27307.55,
+        "open": 27602.55,
+        "change": -144.95,
+        "change_percent": -0.52,
+        "prev_close": 27664.5,
+        "timestamp": 1770445198
+      },
+      {
+        "symbol": "NSE:NIFTYPHARMA-INDEX",
+        "last_price": 21961.35,
+        "high": 22103.95,
+        "low": 21810.25,
+        "open": 22094.5,
+        "change": -158.55,
+        "change_percent": -0.72,
+        "prev_close": 22119.9,
+        "timestamp": 1770445198
+      },
+      {
+        "symbol": "NSE:NIFTYMETAL-INDEX",
+        "last_price": 11943.15,
+        "high": 11959.55,
+        "low": 11756,
+        "open": 11823.75,
+        "change": 21.95,
+        "change_percent": 0.18,
+        "prev_close": 11921.2,
+        "timestamp": 1770445199
+      },
+      {
+        "symbol": "NSE:NIFTYREALTY-INDEX",
+        "last_price": 824.85,
+        "high": 826.1,
+        "low": 807.45,
+        "open": 819.1,
+        "change": 5.15,
+        "change_percent": 0.63,
+        "prev_close": 819.7,
+        "timestamp": 1770445199
+      },
+      {
+        "symbol": "BSE:SENSEX-INDEX",
+        "last_price": 83580.4,
+        "high": 83612.12,
+        "low": 82925.35,
+        "open": 83249.32,
+        "change": 266.47,
+        "change_percent": 0.32,
+        "prev_close": 83313.93,
+        "timestamp": 1770445199
+      },
+      {
+        "symbol": "NSE:NIFTYNEXT50-INDEX",
+        "last_price": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "change": 0,
+        "change_percent": 0,
+        "prev_close": 0,
+        "timestamp": 1770445200
+      }
+    ],
+    "historical": [
+      {
+        "symbol": "NSE:ITC-EQ",
+        "type": "STOCK",
+        "records": 21,
+        "data_sample": [
+          [
+            1769990400,
+            309.45,
+            315.4,
+            302,
+            314.7,
+            35227572
+          ],
+          [
+            1770076800,
+            321.2,
+            324.75,
+            311.6,
+            316.65,
+            33168353
+          ],
+          [
+            1770163200,
+            312.5,
+            314.95,
+            311.35,
+            313.85,
+            11196759
+          ],
+          [
+            1770249600,
+            313.95,
+            315.35,
+            309.3,
+            310.2,
+            15816704
+          ],
+          [
+            1770336000,
+            310,
+            327.7,
+            308.3,
+            325.8,
+            68057745
+          ]
+        ]
+      },
+      {
+        "symbol": "NSE:IOC-EQ",
+        "type": "STOCK",
+        "records": 21,
+        "data_sample": [
+          [
+            1769990400,
+            160.5,
+            165.4,
+            159.05,
+            164.61,
+            14590517
+          ],
+          [
+            1770076800,
+            168.5,
+            168.69,
+            164.4,
+            167.58,
+            14585846
+          ],
+          [
+            1770163200,
+            167,
+            173.7,
+            166.32,
+            172.78,
+            28164545
+          ],
+          [
+            1770249600,
+            174.24,
+            177.9,
+            172.42,
+            175.77,
+            34830200
+          ],
+          [
+            1770336000,
+            176.99,
+            180.9,
+            173.28,
+            175.2,
+            34240417
+          ]
+        ]
+      },
+      {
+        "symbol": "NSE:SAIL-EQ",
+        "type": "STOCK",
+        "records": 21,
+        "data_sample": [
+          [
+            1769990400,
+            148.1,
+            149.9,
+            141.3,
+            148.67,
+            38552721
+          ],
+          [
+            1770076800,
+            154.5,
+            156.05,
+            149.04,
+            154.36,
+            32031454
+          ],
+          [
+            1770163200,
+            154.95,
+            158.2,
+            154.11,
+            157.29,
+            20559103
+          ],
+          [
+            1770249600,
+            155.9,
+            160,
+            152.29,
+            158.5,
+            22567786
+          ],
+          [
+            1770336000,
+            158,
+            161.3,
+            156.49,
+            160.52,
+            29587522
+          ]
+        ]
+      },
+      {
+        "symbol": "NSE:NIFTY50-INDEX",
+        "type": "INDEX",
+        "records": 21,
+        "data_sample": [
+          [
+            1769990400,
+            24796.5,
+            25108.1,
+            24679.4,
+            25088.4,
+            449215604
+          ],
+          [
+            1770076800,
+            26308.05,
+            26341.2,
+            25641.3,
+            25727.55,
+            637263148
+          ],
+          [
+            1770163200,
+            25675.05,
+            25818.55,
+            25563.95,
+            25776,
+            429788986
+          ],
+          [
+            1770249600,
+            25755.9,
+            25757.65,
+            25579.5,
+            25642.8,
+            343812628
+          ],
+          [
+            1770336000,
+            25605.8,
+            25703.95,
+            25491.9,
+            25693.7,
+            375476124
+          ]
+        ]
+      },
+      {
+        "symbol": "NSE:NIFTYBANK-INDEX",
+        "type": "INDEX",
+        "records": 21,
+        "data_sample": [
+          [
+            1769990400,
+            58239.3,
+            58687.05,
+            57829.85,
+            58619,
+            191569241
+          ],
+          [
+            1770076800,
+            61411.2,
+            61764.85,
+            59793.2,
+            60041.3,
+            264635229
+          ],
+          [
+            1770163200,
+            60163.35,
+            60389.4,
+            59891.75,
+            60238.15,
+            141236582
+          ],
+          [
+            1770249600,
+            60315.35,
+            60328.3,
+            59881.05,
+            60063.65,
+            140199704
+          ],
+          [
+            1770336000,
+            59967.1,
+            60149.9,
+            59644.55,
+            60120.55,
+            131988945
+          ]
+        ]
+      }
+    ],
+    "profile": {
+      "s": "ok",
+      "code": 200,
+      "message": "",
+      "data": {
+        "fy_id": "FAH92116",
+        "name": "JAYSHARI SUNIL PATHAK",
+        "image": null,
+        "display_name": null,
+        "pin_change_date": "23-01-2026 08:27:08",
+        "email_id": "sxxxxxxxxxxxxx5@yahoo.com",
+        "pwd_change_date": null,
+        "PAN": "BCxxxxxx2L",
+        "mobile_number": "86xxxxxx31",
+        "totp": false,
+        "pwd_to_expire": 90,
+        "ddpi_enabled": false,
+        "mtf_enabled": false
+      }
+    },
+    "funds": {
+      "code": 200,
+      "message": "",
+      "s": "ok",
+      "fund_limit": [
+        {
+          "id": 1,
+          "title": "Total Balance",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 2,
+          "title": "Utilized Amount",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 3,
+          "title": "Clear Balance",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 4,
+          "title": "Realized Profit and Loss",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 5,
+          "title": "Collaterals",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 6,
+          "title": "Fund Transfer",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 7,
+          "title": "Receivables",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 8,
+          "title": "Adhoc Limit",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 9,
+          "title": "Limit at start of the day",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        },
+        {
+          "id": 10,
+          "title": "Available Balance",
+          "equityAmount": 0,
+          "commodityAmount": 0
+        }
+      ]
+    },
+    "positions": {
+      "code": 200,
+      "message": "",
+      "s": "ok",
+      "netPositions": [],
+      "overall": {
+        "count_open": 0,
+        "count_total": 0,
+        "pl_realized": 0,
+        "pl_total": 0,
+        "pl_unrealized": 0
+      }
+    },
+    "orders": {
+      "code": 200,
+      "message": "",
+      "s": "ok",
+      "orderBook": []
+    }
+  }
+}
