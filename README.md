@@ -32,7 +32,15 @@ Your automated trading system now includes comprehensive FYERS API v3 integratio
 
 ## 🔧 API Documentation Integration
 
+**⚠️ IMPORTANT: Always refer to the official FYERS API v3 Documentation first before implementing any features**
+
 Based on **FYERS API v3 Documentation**: https://myapi.fyers.in/docsv3
+
+**📚 Documentation-First Approach:**
+- All implementations must follow official FYERS v3 API specifications
+- Always verify endpoint parameters and response formats from the docs
+- Check for API updates and new features regularly
+- Implement error handling based on documented error codes
 
 ### Key API Endpoints Used:
 

@@ -1,7 +1,7 @@
 """
 Advanced Trading Strategy Framework
 Utilizing FYERS API v3 Advanced Features
-"""
+⚠️  CRITICAL: Always consult https://myapi.fyers.in/docsv3 FIRST before implementing features"""
 
 import json
 import time

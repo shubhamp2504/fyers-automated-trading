@@ -1,6 +1,6 @@
 """
 Advanced FYERS API Features for Automated Trading System
-Based on FYERS API v3 Documentation: https://myapi.fyers.in/docsv3
+⚠️  CRITICAL: Always consult https://myapi.fyers.in/docsv3 FIRST before implementing featuresBased on FYERS API v3 Documentation: https://myapi.fyers.in/docsv3
 """
 
 import json
