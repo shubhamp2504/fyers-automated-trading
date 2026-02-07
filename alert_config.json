@@ -1,0 +1,43 @@
+{
+  "channels": {
+    "console": {
+      "enabled": true
+    },
+    "file": {
+      "enabled": true,
+      "log_file": "jeafx_alerts.log"
+    },
+    "database": {
+      "enabled": true,
+      "db_file": "jeafx_alerts.db"
+    },
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "recipients": []
+    },
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "",
+      "headers": {}
+    }
+  },
+  "filtering": {
+    "min_level": "INFO",
+    "max_alerts_per_minute": 30,
+    "throttle_duplicate_minutes": 5
+  },
+  "formatting": {
+    "timestamp_format": "%Y-%m-%d %H:%M:%S",
+    "include_data": true,
+    "compact_mode": false
+  }
+}

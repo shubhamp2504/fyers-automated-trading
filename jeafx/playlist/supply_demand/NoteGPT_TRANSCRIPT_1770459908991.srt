@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:53,000
+supply and demand the concept at the very core of the financial markets mastering this will allow you to take great trades consistently and build a thriving career in trading so cut off all distractions in the next 10 minutes I'm going to show you everything you need to know to master supply and demand trading what is supply and demand Supply refers to the amount of sellers in a market and demand refers to the amount of buyers market prices are driven by the battle between buyers and sellers
+
+2
+00:00:27,000 --> 00:01:20,000
+when there's more selling than buying High Supply than the markets move lower and when there's more buying than selling high demand then markets move higher the battle between supply and demand is quite literally why the markets move with good news and positive developments for a currency more people want to buy and as a result there's more demand and market prices go up the same is true for bad news where Traders react by selling off the assets that they have and by losing interest in buying more
+
+3
+00:00:53,000 --> 00:01:52,000
+this results in an increase in Supply and a decrease in demand and as a result the markets fall lower on paper this isn't an interesting concept but how exactly can you use it on the charts to improve your trading results by reading the supply and demand of a market in real time using zones to find a supply or demand Zone we want to identify an area of consolidation sideways price action before a large up or down move a demand zone is a consolidation before a big upward move and a supply zone is
+
+4
+00:01:22,000 --> 00:02:14,000
+consolidation before a big downward move these zones are areas where large amounts of buying or selling has taken place in the past and they can be used to take high probability High reward trades in the future here's an example by looking at this chart we can clearly see there was a demand Zone here which was an area where a large amount of buying took place we know that Traders see this price as a discounted price to buy this asset so we can then assume if the market returns to this price once
+
+5
+00:01:48,000 --> 00:02:41,000
+again Traders will be happy to buy here again because it's a fair price to purchase contracts at so what we would do is avoid buying until price hits the zone and then focus our efforts on securing an entry inside of the demand Zone stop losses would simply be placed below the zone and if the Zone doesn't hold it tells us the market is reversing and the best thing we can do in that scenario is cut the loss short and get out the same Theory applies to supply zones but instead of looking to buy we
+
+6
+00:02:15,000 --> 00:03:06,000
+would look to sell now this is important so listen up when you look at a chart you'll realize there are seemingly supply and demand zones everywhere at the top and bottom of every single move you're going to see a small consolidation obviously buying or selling a retest of every single zone is not going to work out well you'll take a massive amount of losses and explode your trading account very quickly so to avoid that we want to make sure we're always trading with the trend so when a
+
+7
+00:02:40,000 --> 00:03:31,000
+market is trending up we should focus on buying demand zones and totally ignore Supply zones and when a market is trending down we should sell from Supply zones and ignore the demand zones that form within the trend and to determine the direction of a trend we can just read the highs and lows in price action a market that is consistently forming higher highs and higher lows is in an uptrend and a market that is consistently forming lower lows and lower highs is in a downtrend if you need to learn more about Market
+
+8
+00:03:06,000 --> 00:04:01,000
+structure click the card in the top corner of this video to watch my class about that concept buy demand in uptrends and sell Supply in downtrends and if you break this all important rule you will go broke fast so don't forget it another important thing to note is that supply and demand zones are only good one time when a Zone has been retested once it is written off so if the retest results in a huge move awesome but if the market slumps back down and hits the Zone a second or third time it shows us that the buying is not
+
+9
+00:03:33,000 --> 00:04:25,000
+as strong as anticipated and it's likely that the Zone will break instead of holding up so only consider buying or selling from demand zones or Supply zones that haven't been retested yet if a Zone has already been hit don't go buying on a second or third tap it won't work out well for you so now you know how to find supply and demand zones and how to use them for getting into trades you also know you should be trading them with the trend but supply and demand has another use too targets we can use open
+
+10
+00:03:59,000 --> 00:04:56,000
+Supply and demand zones as targets for the trades that we take and to explain this it's best to just show you an example so for this example trade we're looking at a buy from this demand Zone in this predominant uptrend now we can use supply and demand zones as targets and this is how we do it obviously if we know we're in an uptrend we want to only buy from demand that is what we're going to focus on however if we're expecting the market to go up we can actually use a supply Zone as a safe Target for our
+
+11
+00:04:27,000 --> 00:05:22,000
+trade now we could use this one here we have this imbalanced range we have this clear Supply at the top and we know that with the market reversal it's likely we get to this point however these smaller range in price action is actually bearish at the moment so the big picture is bullish but this smaller picture is bearish meaning we know this Supply Zone could potentially form a reaction when we get to it so what we could do is use this Supply as the target for our trade get out and then assess what the market
+
+12
+00:04:55,000 --> 00:05:47,000
+does later and as you can see after reacting from this Supply we did have quite a lot large bearish move so it's often a good idea to use Supply zones as targets for buys when you're buying from demand and on the flip side if you're using Supply to sell the market demand zones can be a very good place to Target to get out of your trade safely before Market reversals to round off this class I want to show you a trade I took from start to finish using the concept of supply and demand so that you can see
+
+13
+00:05:21,000 --> 00:06:15,000
+how all the elements I've covered so far come together so for this example trade we're going to look at quite an old trade from 2023 but this is a really clear simple example and a great first introduction to the concept of supply and demand so what we have is a predominant uptrend in the market and then we saw the market reverse and trade down towards this demand Zone just here so now we have an uptrend and we know we want to buy from demand and ignore Supply zones for the most part because
+
+14
+00:05:48,000 --> 00:06:46,000
+we are trending upwards now after this retest we had a push-up we had a break of structure and we left open at this low another demand Zone you can see it's a consolidation move before the upward move and also consol idation can be seen as we see here in individual candles as kind of consolidation candles with large Wicks that show essentially a lower time frame consolidation so what we can do now is look for a buy from this demand because we have a clear demand Zone in a clear uptrend as we covered before we can put
+
+15
+00:06:17,000 --> 00:07:11,000
+our stop- loss under the low and then for targets what could we target well we could Target the supply Zone at the top of this move this Supply zone is very likely to be filled considering we're in an uptrend and if it does form a reaction we will be able to secure over 10% in profits from where we are here all the way up to this Supply zone so we can place an order just here and then we can allow the market to play out and as you will see this trade was filled very precisely from the demand and then we
+
+16
+00:06:44,000 --> 00:07:35,000
+had a very nice quick upward move all the way towards that Supply zone so I took this trade and I made around 11% on this and yes it's an old trade but the concept stand true and I'm showing you this one because it's a very clean example for your first introduction to supply and demand and there you have you have it supply and demand the concept at the very heart of the market and the strategies that you can use to successfully trade with supply and demand at the core of your strategy it's
+
+17
+00:07:09,000 --> 00:08:00,000
+simple effective and grounded in logic and it's a concept that will never get old or die because the endless battle between buyers and selling between demand and Supply is literally why the markets move now if you enjoyed that hit the link in the description and you'll be taken to my free course it's going to break down 10 reasons why you're not winning and how you can turn your results around and by the way depending when you're watching this video I have a 50% promo on my trading Mastermind so if
+
+18
+00:07:35,000 --> 00:08:17,000
+you want to get a full comprehensive education and work with me to put your strategies into action in the markets every day then hit the Mastermind Link in the description and join us on the inside now get to work on breaking down supply and demand in the markets I hope it brings the same success to you that it brought to me that's all from me I see you in the next video
+

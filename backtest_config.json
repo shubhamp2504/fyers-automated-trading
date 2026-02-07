@@ -1,0 +1,44 @@
+{
+  "backtest_settings": {
+    "initial_capital": 100000,
+    "commission_per_trade": 20,
+    "slippage_percent": 0.05,
+    "max_positions": 5,
+    "risk_per_trade": 0.02,
+    "stop_loss_percent": 2.0,
+    "take_profit_percent": 4.0,
+    "min_confidence": 75,
+    "max_hold_days": 30
+  },
+  "test_symbols": {
+    "single_stock": "RELIANCE",
+    "portfolio": [
+      "RELIANCE",
+      "TCS",
+      "INFY",
+      "HDFCBANK",
+      "ICICIBANK",
+      "SBIN",
+      "ITC",
+      "HINDUNILVR"
+    ]
+  },
+  "test_periods": {
+    "recent": {
+      "start": "2023-01-01",
+      "end": "2024-12-31"
+    },
+    "long_term": {
+      "start": "2020-01-01",
+      "end": "2024-12-31"
+    },
+    "bull_market": {
+      "start": "2020-03-01",
+      "end": "2021-12-31"
+    },
+    "bear_market": {
+      "start": "2022-01-01",
+      "end": "2022-12-31"
+    }
+  }
+}

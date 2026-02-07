@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:52,000
+if you understand supply and demand trading you can take some amazing trades and build real consistency within your work so this video is The Ultimate Guide to supply and demand I'm going to show you what it is why it happens and how you can use it to develop a consistent strategy that brings you profit within the markets so let's get into it a quick note before we go deeper into supply and demand trading I have a free 70-minute training that you can sign up to right now within this we go over supply and
+
+2
+00:00:26,000 --> 00:01:14,000
+demand we go over liquidity order flow risk control and a bunch of different concepts which will improve your trading scan this QR code or head over to the link in the description and you can sign up to that right now for free let's get back into the video so first of all let's start out by talking about the basic premise of supply and demand now in a nutshell supply and demand refers to large buying moves or large selling moves in the market and it is formulated not by the amount of buyers and sellers
+
+3
+00:00:50,000 --> 00:01:46,000
+but instead by the amount of buying or selling meaning it doesn't have to be millions of sellers at one level or millions of buyers at one level but it can instead be a few participants putting huge order Zone at set levels so the basic theory is that supply and demand is driven by institutional orders and where possible we want to follow those orders to take our own trades because this is where the big profits and the consistent moves are going to come from so Supply is a large selling move it is basically where a lot of
+
+4
+00:01:18,000 --> 00:02:10,000
+suppliers been brought to the market and we see prices decline Demand on the other hand is a large buying move where we see a lot of demand come into the market a lot of buying takes place and this drives the price up very quickly and to give you a very simplified and easy way to understand why supply and demand is useful we can look at it from a pure pricing standpoint so using this as an example then we're going to look at this area of demand within this market so from a pure pricing standpoint
+
+5
+00:01:44,000 --> 00:02:44,000
+we can see that this area between 1.11528 and 1.10618 is a price that people were happy to pay for the pound versus the US dollar now if we see this as a price where people were happy to pay for this in the past we can assume that this is going to be a price that people are happy to pay in the future so the idea is then if price can pull all the way back down to this range we can also buy at this preset well-priced level so basically we're looking to get ourselves a bargain now the range that we get at
+
+6
+00:02:16,000 --> 00:03:17,000
+the bottom of a large demand move or at the top of a large Supply move can be identified as a zone so this area here would be a demand Zone and if we were looking at this from the other perspective on the sell side this would be a supply Zone from here what we want to see is price return towards this demand Zone and when it does we have a good price to buy from [Music] so now that we covered the basics of supply and demand let me show you how to Mark out zones now there is a general rule in the trading community that to
+
+7
+00:02:47,000 --> 00:03:41,000
+Mark out a supply or demand Zone you should use the last down candle before an up move or the last up candle before a down move so this being a sideways candle would be an accurate demand Zone and for a move like this you would focus on the last down candle okay so that would be your demand zone now I don't use this general rule as I self-taught myself supply and demand using very basic tidbits of information I actually developed myself a different rule okay I learned to plan demand in a different
+
+8
+00:03:14,000 --> 00:04:10,000
+way but I found this way to be very beneficial because I think it gives me the best results so it's totally up to you whether you follow the general rule or you go with the approach that I go with but my Approach is to use the last candle before the impulse so if we look here we have this demand area and this big demand push-up so what I'm going to do is identify the last candle before the impulse which is this one and use that as as my Demento so as you can see with this buying idea price filled into
+
+9
+00:03:42,000 --> 00:04:33,000
+this and we could have got a nice entry and a safe stop loss and survived the move whereas if you were using the traditional supply and demand rules and you were entering like this the wick would have actually gone below your Zone and potentially taking you out of the trade now I'm not saying that my way is right and everyone else is wrong it will be personal to you and I'm sure if you trade with the standard rule you'll do just fine but for an insight into how I view it that is what I do the last
+
+10
+00:04:07,000 --> 00:04:56,000
+candle before the impulse so looking at this current structure let me give you an example of how I would plot my demand zones so this is a demand Zone here because we have the last candle before this large impulse we fall back in we get a buy this then becomes a demand Zone being the last candle before this large impulse we come back in and we get to buy and as you can see here we had this large impulse and here's a tip for you if you've got very tricky price action to work with like this what you
+
+11
+00:04:32,000 --> 00:05:22,000
+can do is actually use the Wicks of these moves now the reason a wick is okay in a scenario like this is because simply the wick covers this entire range by using the wick this is going to be quite a high probability area to buy from in the future now as you can see not every demand zone is going to get hit there's also a demand Zone here which hasn't been retested yet now it may do some point in the future but not every single one is going to provide a trade for example if you looked at this
+
+12
+00:04:57,000 --> 00:05:45,000
+very clear demand Zone you would have actually missed out on this initial movement because price didn't come to retest it but that's just the nature of probabilities that we have in trading and this is something that can't really be entirely avoided and in terms of plotting on Supply zones it works in the very same way so for this example all I've done is flip the chart upside down so you can see on a sell side how we would plot the supply zones okay so one important thing that you will notice by
+
+13
+00:05:21,000 --> 00:06:11,000
+looking at this is that we are always moving with the trend and this is a very important thing to understand you can only trade supply and demand with Market structure if you try to trade supply and demand without an understanding of the overall trend Direction in the market then you are not going to do very well you because simply put supply and demand zones will appear everywhere but it's up to you to work out which ones are actually valid by following the trend structure so if we're looking at this
+
+14
+00:05:46,000 --> 00:06:40,000
+from a selling perspective then we can see that this is actually a downtrend from this point we broke the structure here and we've had a lower low lower high lower low lower high lower low so all we would want to do within this trend is sell from Supply zones we don't want to focus on any demand zones whatsoever because if we do as you can see we will continually be taken out and the reason for that is because we are battling the trend and if the trend is down the only thing we should be doing
+
+15
+00:06:13,000 --> 00:07:10,000
+is trying to follow that not fight against it and flipping it around the same goes for buying in an uptrend if the market is trending upwards we only want to buy demand zones we do not want to attempt to sell any of the supply zones that form because we will be continually taken out and stack up a bunch of losses that we don't want to encounter so to recap on the talking points so far supply and demand is driven by large amounts of buying or selling in a market supply is on the sell side and indicates a big amount of
+
+16
+00:06:42,000 --> 00:07:35,000
+selling pressure and demand is on the buy side and indicates a large amount of buying pressure supply and demand indicate prices that were previously seen as good levels to buy or sell from therefore we can assume when price returns to these levels it will once again be a good price to actually buy into the market or sell into the market from the next point is that supply and demand should always be used with the trend meaning we should only be buying demand zones if the market is trending to the upside we should only be selling
+
+17
+00:07:08,000 --> 00:08:02,000
+Supply zones if the market is trending to the downside we never want to battle the market because if we do we will Stack Up losses very very quickly so now what we're going to do is look at a couple of example trades using supply and demand and showing you how to put supply and demand together with Market structure to catch consistent winning trades for our first trade example let's take a look at gold here we can see a market that has been up trending solidly we had this very large pullback down but
+
+18
+00:07:36,000 --> 00:08:30,000
+since hitting this demand Zone here we've actually had a break of structure to the upside which you can see just here so now we have this High time frame confirmation so now we have this High time frame Trend pairing with this break of structure after retesting a demand Zone indicating that maybe we could be due to move to the upside now supply and demand can be used for targets now supply and demand can be used for entries and it can also be used for targets pretty much every trade I get into is either going to be targeting a
+
+19
+00:08:02,000 --> 00:08:59,000
+point of liquidity which is a topic for another video or an imbalanced supply and demand zone so if we were looking to buy this we would buy from the demand Zone which is just down here and if we were looking for a Target we would use a clear imbalanced Supply or demand Zone much like this one just here and maybe even these ones up in the high of the move so for this example let's actually set three different take profit levels that we can Target following this break of structure and buying from the
+
+20
+00:08:31,000 --> 00:09:43,000
+demand Zone the trade that we set up will look something like this we want to buy the demand Zone we can put our stop loss beneath the low of the move and then we can Target through into each of these levels and as price moves we can take profit along the way and let's see how it goes foreign [Music] and there we have it a trade following the high time frame Trend buying from demand and targeting imbalanced Supply zones for the profit taking on this position as you can see it's a very simple system but when you pair Market
+
+21
+00:09:15,000 --> 00:10:09,000
+structure with supplier demand you can take some really really great trades now full disclosure unfortunately I didn't hold my trade this long I got myself and my team into this position down here in this low time frame price action however we were looking at this from a different perspective and due to some fundamentals I decided to take the profits early so we targeted this imbalance Supply here and used a very low time frame 15 minute and 30 minute demand to buy from this point up to this point now in the end it
+
+22
+00:09:42,000 --> 00:10:30,000
+still turned out to be an 8 Hour trade which was very big anyway but a very useful piece of information to take from that lesson is that even though I didn't take this full trade up I still locked in a solid profit using Demand on the low time frame from here up to here and what does that show well that shows that supply and demand is relevant on all time frames you can apply this system to the one minute and the five min if you are a low time frame day trader if you're a swing Trader you can use supply
+
+23
+00:10:06,000 --> 00:10:56,000
+and demand in this method to trade the four hour and daily time frames it really doesn't matter what time frames you're using supply and demand is a fractal concept meaning it will move the same across pretty much every time frame and allow you to adapt your system to your personal trading style so for our final trade example let's take a look at that exact trade that I sent out to my students this is the same price action but seen on a lower time frame and this is what we were focused on what you can
+
+24
+00:10:31,000 --> 00:11:24,000
+see here is a demand Zone reaction just there from this previous move of demand now we can see there is a big selling move showing there is a supply Zone and that is going to be our imbalance Supply Zone Target which I will use as this candle here being the last candle before the down move being the last candle before the big downside impulse so if we look at the structure down here then what we can see is that we had a lower low a lower high a lower low and then we broke up to a higher height so
+
+25
+00:10:58,000 --> 00:11:47,000
+the break of structure I was interested in for this position was this one just here now we saw then the market come down and form a higher low and what we actually did then was break some lower time frame structure so I used the concepts of supply and demand to get us into a position from here and the trade given from that lower time frame usage of supply and demand would look something like this we're looking to enter from the demand Zone with a stop loss beneath the low and we're going to Target that
+
+26
+00:11:22,000 --> 00:12:32,000
+in Balance supply for our profit taking and now let's see how that played out foreign [Music] so as you can see supply and demand is not rigid to one time frame you can apply this on the lower time frames or the higher time frames and it will bring you some really really nice results and that brings us to the end of the video I hope you've enjoyed this guide on supply and demand trading and now what I want you to do is go ahead to the markets and back test this for yourself to develop your consistency with a supply and
+
+27
+00:11:57,000 --> 00:12:45,000
+demand trading system now it does take some time to master supply and demand and to understand which zones you should be focusing on but all you need to remember is that you have to move with the trend if you do this you can get some really solid results week by week and month by month and build yourself a profitable trading system using the very simple concepts of structure and supply and demand in conjunction I hope you've enjoyed this video if you have make sure you subscribe to my channel because I
+
+28
+00:12:21,000 --> 00:12:36,000
+post educational videos here every single week thank you for watching and I'll see you in the next one foreign
+

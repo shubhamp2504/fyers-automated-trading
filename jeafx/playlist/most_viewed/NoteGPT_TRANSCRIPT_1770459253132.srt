@@ -1,0 +1,228 @@
+1
+00:00:00,000 --> 00:00:54,000
+knowing how to correctly read candlesticks helps you to understand the market take more accurate trades easily avoid a lot of losses that you would have taken otherwise and ultimately will help you to stay on the right side of the market every Candlestick tells you a story and mastering them lets you read the market like a book that's exactly what's going to happen in this class pretty much no candle will print the same as the previous they're all going to be different in some way but there
+
+2
+00:00:27,000 --> 00:01:24,000
+are only really three types of Candlestick and when you wonder understand this and understand what each one is you'll have a much better understanding of the market so the three types of Candlestick are strength candles control shift candles and indecision candles we're going to start by going through the strength candle now to explain anything inside of this video we need to preface by saying the market is a battle between buying and selling when we're looking at candles we are looking at Market psychology they tell
+
+3
+00:00:55,000 --> 00:01:58,000
+us a story as to who is in control between the buyers and the sellers when we see more buying taking place in a market prices go up because the sellers can demand more dollars per unit of the assets that they have if there are more people who are demanding to buy and there are more willing buyers more selling leads to lower prices because the buyers can demand more units per dollar if lots of people are trying to sell an asset into a market you can offer a lower price to one of them and someone is going to take it this is
+
+4
+00:01:26,000 --> 00:02:26,000
+really why markets go up and down and the candlesticks are a direct direct reflection of this buying and selling battle that's taking place at all times so remember this throughout the whole video all we're doing here is trying to read this battle using candles so getting into strength candles if we have a candle that opens here and closes here with a large candle body and a small upper Wick this is the result of strong buying this is a strength candle and it indicates that right now at the time of
+
+5
+00:01:56,000 --> 00:03:01,000
+printing this candle the buyers hold control over price in the market the same is true for a bearish candle that opens here closes here has a large candle body and a small lower Wick this is the result of strong selling we've seen uninterrupted selling which has driven the market down over whatever specified period of time this candle is representing it indicates that sellers at this point in time hold control over price in the market so these strength candles always need to have small Wicks
+
+6
+00:02:29,000 --> 00:03:23,000
+and large candle bodies because what we're seeing here is a uninterrupted phase of buying or selling where the resistance from buyers or sellers against the trend simply wasn't strong enough to slow the market down and leading on from that bullish candles with no upper Wick and bearish candles with no lower Wick so just flat tops and flat bottoms like these although they're reasonably rare in the market when they do print they are even stronger than little Wicks because they show no
+
+7
+00:02:56,000 --> 00:03:55,000
+resistance from sellers or buyers against the larger move throughout the specif ifed period of time so if we see an hourly candle close completely bullish with absolutely no Wick above it gives us a very strong indication that the buyers are fully controlling this market right now there is no resistance from Sellers and after a strength candle like this prints you can assume there will generally be continued upside or downside depending on if the candle was bullish or bearish now there will be pullbacks and of course context matters
+
+8
+00:03:26,000 --> 00:04:26,000
+which we'll get into soon but ultimately it shows control leading to further moves in that direction in most cases when we see these strength candles we know two things number one we want to move with the strength number two we want to make sure that we don't trade against it very simple forgetting good trades and avoiding bad ones now when we're looking at strength candles as with all candles the size of the candle Body Matters too okay we have four examples here all are showing uninterrupted buying but the largest
+
+9
+00:03:56,000 --> 00:04:50,000
+candle is by far going to be the strongest and the best indication that the buyer are in control a very small candle body even if there is no upper Wick doesn't show a massive amount of buying yes it shows that there pretty much isn't any selling acting as resistance but it's not showing a massive influx of buying in the same way that a very large candle is so a candle body that is super small like that weakest example there it's not going to be the strongest for determining future
+
+10
+00:04:23,000 --> 00:05:23,000
+Trend directions even though it does show some uninterrupted buying the big candle however that's the kind of thing we want to see for high accuracy moves this is because large candles show massive buying and smaller candles show a less aggressive wave of buying the buyers are still in control at this point but not in massive numbers and obviously in a selling example we just flip this on its head large bearish candles at the best to see smaller bearish candles aren't going to matter as much one example of a strength candle
+
+11
+00:04:53,000 --> 00:05:51,000
+that you've probably heard of before is the engulfing pattern if a candle has engulfed multiple previous candles it shows a Takeover in control from buyers or sellers so in this example here we can see that four bullish candles were engulfed by one bearish candle obviously this bearish candle is what we call the strength candle and we've seen some small buying pressure but then a massive Takeover in control from Sellers and in this time period sellers have achieved more in one candle than it took buyers
+
+12
+00:05:21,000 --> 00:06:23,000
+to achieve in four times the time okay four times the amount of candles so if we were on an hourly chart here we see 4 hours of bullish price action reversed in one single hour showing clear control from the sellers seller strength and therefore opening the doors to new downside traits or selling opportunities so to round up the foundations of strength candles a strength candle shows clear control from either buyers or sellers in a market larger bodies with small or no Wicks show uninterrupted buying or selling pressure and that is
+
+13
+00:05:52,000 --> 00:06:51,000
+exactly what we want to see and this gives us an insight into where the market is likely to move next a strength candle on the bullish side will potentially lead into further upside and a strength Candle on the bearish side will potentially lead into lower prices or selling opportunities we're going to bring this into context shortly after we've looked at these next two candles so now let's move on to control shifts so a control shift candle shows a Takeover in control or a reversal
+
+14
+00:06:22,000 --> 00:07:24,000
+happening in real time as we've said Wicks show rejected price action so a candle with a large wick on the upside shows an attempt to go higher totally reversed by sellers the opposite is true with large downside wicks for a market where buyers are taking control over sellers so here's an example of how a control shift candle forms and what it means in real time the candle opens here we see a drive to the upside which is strong buyers taking price higher but then we start to see sellers taking
+
+15
+00:06:53,000 --> 00:07:50,000
+control of the market and before the candle closes we see the sellers reverse all of the buying attempts taking the market back down to close around where it opened this large upside Wick is showing in real time the buyers losing control of the market to the sellers therefore hinting at a reversal and giving us valuable information that we can potentially use for future selling trades and everything is exactly the same but with a large lower Wick instead of upper for the case of a reversal from
+
+16
+00:07:22,000 --> 00:08:16,000
+selling to buying now in terms of the candle body it really doesn't matter if the candle closes bullish or bearish so whether it's red or green or blue Blue and Gray in my instance it doesn't matter because it's the wick that tells the story and just to show you the scenario is identical for bullish control takeovers but it's reversed okay so large downside Wicks is what's telling the story here of sellers losing control to buyers once again the candle body color doesn't matter it's the wick
+
+17
+00:07:49,000 --> 00:08:39,000
+that gives us the information now the Candlestick pattern that you might have seen this is very basic information is a pin bar and a candle that closes like this is what we call a pin bar they can be very strong in the right context but you need to weave in the context which we are going to cover very soon but just so you know the pin bars are pretty much control shift candles okay it's just the name that I literally gave it to for this video to explain what it is that pin bars are actually showing you the
+
+18
+00:08:14,000 --> 00:09:12,000
+most important part about each of these candlesticks including pin bars as well as the engulfing that we showed you before is that rather than looking at it as just a pattern you want to consider what the market is actually telling you with that battle between buyers and sellers this is where the valuable information can be found so with pin bars or control shift candles the generalized idea is to buy when we see bullish control shifts and sell when we see a bearish control shift context matters and it will be covered very soon
+
+19
+00:08:43,000 --> 00:09:40,000
+so to round these up for now a control shift candle is the first indication that buyers or sellers are claiming control over the leading party in real time so a bearish control shift candle is where we see sellers taking the market from buyers and a bullish control shift candle is where we see the buyers taking control of the market from the sellers the large upper or lower Wick tells us the story and we can use it to determine reversals ahead of time now one important note it has to be a large
+
+20
+00:09:11,000 --> 00:10:07,000
+Wick one side if there is a considerably large Wick either side of the market so both sides this is what we call indecision where there is no party in control and that what we're going to cover just now indecision candles tell us that no one is currently in control and that buying and selling is equally weighted so contrary to the other versions we've looked at where we're looking at strength or reversals indecision is simply where nothing is currently happening an indecision candle
+
+21
+00:09:39,000 --> 00:10:41,000
+looks like this you might know it as a dogee okay we have equal Wicks either side or relatively equal wigs and an open and close price that is near together so we haven't made much movement we've attempted to go higher attempted to go lower but ended up closing around where we opened now here's a run through of what a indecision candle may form like the candle opens here buyers attempt to push the market higher sellers revers this attempt sellers then attempt lower pricing but eventually the market ends
+
+22
+00:10:10,000 --> 00:11:03,000
+up closing near the open price so what we've seen is an equal attempt from buying and an equal attempt from selling Without Really any movement being made it's simply a state of pure indecision in the market no one is in control buyers and sellers are equal now when we're looking at indecision candles in a market they are not always going to look exact ly the same these are some different forms of indecision candles that you will see sometimes they will have a small candle body sometimes they
+
+23
+00:10:37,000 --> 00:11:26,000
+will have a slightly larger candle body sometimes the Wicks will be really long sometimes they'll be short all in all though what we're looking for is a candle that opens and closes near to itself with a wick either side showing attempts to go higher attempts to go lower and complete failure and indecision from One Direction or the other now how do we actually trade inde decision well we cannot directly trade it because it doesn't tell us who's in control right we want to be on the right
+
+24
+00:11:02,000 --> 00:11:58,000
+side of the market if buyers aren't in control and sellers aren't in control then we can't directly trade that candle but we can use indecision candles for trades once the market creates clear Direction so for example if we have an indecision candle which shows no control by either party and then the market breaks out of that range we can use the pullback to buy or sell in line with whichever direction has taken control whether that's buying or selling and also one of its primary use cases is to
+
+25
+00:11:30,000 --> 00:12:28,000
+be used to gauge the likelihood of reversals when it prints in points of interest like Supply zones or demand zones so here we see a collection of different candles which shows after this selling move the sellers have lost control this itself doesn't confirm a trade we would generally want to see something like a bullish engulfing to confirm that the buyers did indeed take control but the indecision is the first sign that the market is indeed slowing down so it's a good place to start prepping buys and keeping in mind that
+
+26
+00:11:59,000 --> 00:12:54,000
+this this bias May shift now that we've seen a complete slowdown in momentum so to round up indecision it's not directly tradable as it doesn't give us clear direction from buyers or sellers but instead it is used for gauging reversals and also taking trades from the point where one party finds control so now it's time to use what we've learned in the first section of this video to actually bring it into real markets and look at some context in real charts so we're going to go through first of all
+
+27
+00:12:27,000 --> 00:13:25,000
+each of the candle types I've showed you we have number one strength candles these are candles like this one this one this one all of these large bodied candles okay these are strength candles which show clear control from buyers or sellers now you can see it's the strength candles that are actually creating the up and down moves okay the second type of candle is that control shift candle so if we look at this candle here this gray one uh I'll just mark it so you can see this shows a
+
+28
+00:12:56,000 --> 00:13:54,000
+control shift which could be a first indication that potten ually the market could reverse from here because what we've seen is a push-up few strength candles we've then had a pull back but a massive push back up from buyers bringing us back up to this point and pretty much rejecting all price action that took place underneath that level there around here okay so that is a control shift candle that's what we would use uh to gauge potential reversals and then the third type of candle is the indecision candle I show
+
+29
+00:13:25,000 --> 00:14:30,000
+you a few points where these indecision candles form so we after we have have this strength movement look up here we have some indecision more indecision the market breaks out higher and creates once again more indecision candles so you can see there's one 2 3 4 five there before the movement lower so this whole area pretty much up here is a phase of indecision the market has slowed down buyers are stepping out and the market is deciding which way it wants to go sellers then step back in and drive the market lower
+
+30
+00:13:57,000 --> 00:14:57,000
+so this phase of indecision indicated by all of those different separate indecision candles it's kind of that first sign of reversal that we spoke about all right what we've started to see is no large strong candles and more sideways candles with wigs either side now another point of indecision is over here this one's important as well see this dogee candle this little gray one this created a massive push of strength so this is basically what we could see as a final point of consolidation before
+
+31
+00:14:27,000 --> 00:15:28,000
+a large runway in the market now now this of course can then be used as a potential demand zone now let me explain demand zones are areas where institutional demand or large buying has entered the market we can determine these demand zones by looking at indecision candles before strength candles this is an indecision candle these are strength candles so that tells us that this area here is where significant buying took place in the past the general idea we can then work with is that if the market returns to
+
+32
+00:14:57,000 --> 00:15:57,000
+one of those indecision candles underneath the strength candles we may see a second wave of buying and this is where we can start to read into the story in the current existing candles so to run through exactly what we've seen here just from this point onwards we have a consolidation where we have indecision in the market we then have clear control from buyers in this massive strength move with multiple strength candles eventually the market reaches a phase of indecision up here and the market is struggling to push
+
+33
+00:15:27,000 --> 00:16:21,000
+higher there is some alleviation from buyers who were buying in earlier so there will be more buy positions being closed out and as well as that people start to short or sell the market because they see this weakness creeping yet we then see these strength moves from sellers however an important thing to note here is what we can consider as multic candle momentum when I'm saying that if you remember back to the engulfing we can have some downside like this which takes quite a while and then
+
+34
+00:15:54,000 --> 00:17:00,000
+some upside which would very quickly wipe out all of the downside so what we can also consider is how fast movements are occurring and that can give us a good insight into what's actually going on now if we take a look at this buying move right this move upwards we managed to cover from this low up to this High all of this ground in 15 hours now the return from that high to that low has actually taken 4 days so it's a significantly longer time frame to get down here than it was to initially get
+
+35
+00:16:27,000 --> 00:17:21,000
+up here what does this tell us well for the most part this actually indicates that the buying that was taking place here is significantly stronger than any of this selling that has taken place on the way back down because yes although sellers are in control at this point they are moving exceptionally slow in comparison to the amount of power that the buyers brought to the market so this again can be another sign that we've pretty much completely gathered from candlesticks as to who is in control of
+
+36
+00:16:54,000 --> 00:18:01,000
+this Market on a bigger time Horizon so we have buyers taking control very fast push-up alleviation and indecision sellers taking control but with significantly less strength hence the massive sideway movements of this market and the failure to take this Market lower uh at any significant pace and now that the market has returned to what we can call a point of Interest being this area of demand where big buying took place before what can we now see on these candles well we can start to see control shifts coming in so if we zoom
+
+37
+00:17:27,000 --> 00:18:33,000
+in on this bit of price action what do these Wicks tell us these are rejected prices so although the market managed to come down to at its lowest point here we actually never saw it close into that area of Demand right so we've actually seen buying pressure coming in from here every time that the sellers have tried to take the market lower and we've had that reversal back to the upside I like to look at structural changes to confirm my trades which generally would mean if I wanted to buy into to this Market I'd
+
+38
+00:18:00,000 --> 00:18:57,000
+want to see one of the previous highs taken out we got a problem here though if we take a look at the candles we can see that there's actually more indecision and maybe a little bit of seller control kicking in at these levels here rather than closing with strength candles we've actually started to see some Wick rejections so it's ideal to not try buying into this because if the wick rejections follow through we could potentially move to the downside fortunately for us however in terms of our buying narrative we can see
+
+39
+00:18:29,000 --> 00:19:32,000
+that after we had this small push down from sellers we actually hit this point and had a huge drive back to the upside this is the most clear control shift candle that we can see big sell and then buyers step in and push us all the way back up so from this point on we actually never managed to see any closures underneath this level okay we had push from this point and from there on this was the lowest point we ever got to and every attempt to go lower was indeed reject Ed so there's our control
+
+40
+00:19:00,000 --> 00:19:58,000
+shift candle there's some solid Wick rejections as well showing us that the buyers are stepping in here and now I want to draw your attention to this little area here what do we see 1 2 3 indecision candles a fourth relative indecision candle but it does have a bit more weakness now with all of the things combined in seeing that we're in a point of Interest a high interest buying Point we've seeing control shift from the downside we've seeing buyers stepping in and we're now starting to to see
+
+41
+00:19:29,000 --> 00:20:30,000
+indecision and then a drive to the upside with this small strength candle what could we presume from everything that we've looked at so far well the obvious presumption at this point would be that the market could potentially be ready to trade higher if we Zoom back out and consider what we said about the timing and the multi candle momentum that is simply referring to the speed of this movement is exceptionally faster showing buyers are exceptionally stronger than the speed of the turn back
+
+42
+00:19:59,000 --> 00:20:58,000
+down which is the strength of the sellers so we know from a larger perspective buyers are in control okay we know from a lower perspective that once again it looks like now that we've met this High interest area buyers are taking control we would want to see some more strength candles to really confirm anything here okay we haven't seen closures above a notable structure point which is pretty much going to be here we obviously have got more points as well which would indicate further strength
+
+43
+00:20:28,000 --> 00:21:26,000
+from buyers but we would realistically need to see some strength candles making some significant movements in order for us to be confident enough to buy this Market because although we've seen those first signs of reversal as we've said control shift and indecision we haven't yet seen solid bio strength we would need to see that in order to actually build our narrative and understand that the market direction is under control from the buyers so pushing this Market forward a little bit you can see that
+
+44
+00:20:57,000 --> 00:22:09,000
+following on from the indic ision we have one more small phase of indecision which is the consolidation where buyers are accumulating we once again have then a control shift candle and what precedes the control shift candle so let's take a look the control shift candle is going to be this one here we see an attempt to go lower from sellers big buying stepping in at the low and then a close higher than the open so this actually shows a big attempt to go lower reversed by buyers this then precedes these large strength
+
+45
+00:21:33,000 --> 00:22:51,000
+candles these two candles have engulfed a massive amount of previous bearish price action okay if we were to quantify it we have here an entire range of around two days nearly 3 days worth of price action cleared back out in pretty much 1 hour okay we have one 30-minute candle two 30-minute candles and they've wiped out nearly 3 days of downside price action which shows us that the buyers are definitely back in control now what can we do here then well of course as we said the areas that we like to buy from are going to be
+
+46
+00:22:12,000 --> 00:23:06,000
+the indecision candles before large movement up so for this one I'd actually look towards the control shift candle as the higher probability point to buy from this would be where the best trades come from basically what we would be looking for is as we've said this is a high interest point for Buy buyers if the market reverses to this level it is going to be a high interest point for buyers again we've seen significant strength meaning we've seen significant demand if the levels hit again we're
+
+47
+00:22:39,000 --> 00:23:41,000
+probably going to see that one more time so with everything we have in mind now we could actually look to take this Market higher okay judging from the fact that the market is of course Very bullish on the bigger picture the strong moves are a lot faster than the pullback moves okay we could look for targets into essentially new highs we can buy from this area expecting that if the market reaches that level again it will start to drive to the upside with strength and our targets can then be leading towards further points in the
+
+48
+00:23:10,000 --> 00:24:15,000
+trend basically considering we have strong buyers we would just simply be looking for new strong buyers to step in now that we've had that alleviation or relief in the market and came back into some high interest buying points so here is how this would go we see the market slowly return once again a brilliant sign let's think about the timing here in just 1 hour we created all of this upside and then it took a further uh 9 hours to return back down to the point that we created uh just after 1 hour of bullish price
+
+49
+00:23:43,000 --> 00:24:37,000
+action right you can also see that there is no momentum Behind these bearish moves all of the first candles for this entire first range are indecision candles we then did have one bearish kind of very weak strength candle so it wasn't really uh a very strong candle there at all remember we said the size of the candle Body Matters as well and then we actually got pretty much a control shift candle which would be this one after that weak strength candle so we attempted to go lower but we rejected
+
+50
+00:24:10,000 --> 00:25:07,000
+over 50% of that 30-minute candle's price action before then printing the next one which once again has a small upper Wick and a larger lower Wick rejecting around 35 to 40% of that candle's price action so we know that this downward move is a lot weaker than the upward move that came before it you see how we're reading the candles to understand the story that's happening behind the market what we're actually doing here is basically considering by looking into the candles how fast the
+
+51
+00:24:39,000 --> 00:25:36,000
+candles are forming how strong the candles are any indecision any control shift we are building a narrative as to who is in control of this Market in that battle between buyers and sellers because realistically it's one of the only things that matters okay if the buyers are in control we want to buy if the sellers are in control we want to sell if there is no clear control we don't want to do either at that point in time okay so let's Round Up This trade then you can see that it did run through
+
+52
+00:25:07,000 --> 00:26:13,000
+to make new highs we have number one the big picture narrative strong fast buying slower choppier selling with a massive phase of consolidation or a larger indecision taking place pretty much from this point to this point before we have that final push lower when the final push lower is created it trades into an area where made maor buying started we then see no closures in that level just under this level here we only have Wicks showing control shifts showing failure to go lower from the sellers following
+
+53
+00:25:40,000 --> 00:26:30,000
+on from that we see a major control shift candle which is this one here one final attempt to go lower completely reversed and that is Then followed by this phase of indecision which shows no one is at control uh at this point in time which is actually a good sign for buying because it means the sellers have been exhausted after attempting to go lower of course this is all the first signs and we don't have confirmation for a trade just at this point but when we start to see the market push up with
+
+54
+00:26:05,000 --> 00:27:13,000
+these two big strength candles this one and this one this pushes us past some notable structure points and creates the strength we wanted to see once again as we said this one single hour of price action reversed almost 3 days of previous price action so we see the sellers are considerably weaker okay than the buyers are when they step in here and then once again just to add another layer to it we see the selling attempt back down is also considerably weak and then we take off once we filled the significant area the indecision or
+
+55
+00:26:39,000 --> 00:27:36,000
+control shift candles where the initial buying started to take place so here you can see we are not just looking at Candlestick patterns and you know textbook activity stuff we are actually reading into the psychology behind the market we are saying what is it that the buyers and sellers are doing that has created this price action how can can this be used to formulate trades we know buyers are strong sellers are weaker we see the buyers are strong here and the sellers are weaker so of course the
+
+56
+00:27:07,000 --> 00:28:05,000
+right side of the market to be on is going to be the buy side and as you can see would have worked out brilliantly if you want to put together everything we've covered in this class along with all the other Concepts I used to get these results last year and that my students have used to get payouts and certificates like these in just the past few months then I have a free your it's completely free I show you how to build a trading system simplify your trading improve your trades and find success the
+
+57
+00:27:36,000 --> 00:28:14,000
+link is at the top of the description for this video I think this will change the game for you it's 100% free so there's no risk if you don't enjoy it and if you can't be bothered to do that or you've already watched it then watch this video next this will follow on nicely from the class you've just enjoyed so thank you for watching I'll see you in the next class
+

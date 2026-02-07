@@ -1,0 +1,39 @@
+{
+  "live_trading": {
+    "enabled": false,
+    "max_positions": 5,
+    "max_risk_per_trade": 0.02,
+    "max_portfolio_risk": 0.1,
+    "min_signal_confidence": 75,
+    "position_sizing_method": "FIXED_RISK"
+  },
+  "symbols": {
+    "watchlist": [
+      "NSE:RELIANCE-EQ",
+      "NSE:TCS-EQ",
+      "NSE:INFY-EQ",
+      "NSE:HDFCBANK-EQ",
+      "NSE:ICICIBANK-EQ"
+    ],
+    "trading_enabled": {
+      "NSE:RELIANCE-EQ": true,
+      "NSE:TCS-EQ": true,
+      "NSE:INFY-EQ": true,
+      "NSE:HDFCBANK-EQ": true,
+      "NSE:ICICIBANK-EQ": true
+    }
+  },
+  "automation": {
+    "signal_scan_interval": 300,
+    "position_monitor_interval": 60,
+    "market_hours_only": true,
+    "auto_stop_loss": true,
+    "auto_target_booking": true
+  },
+  "safety": {
+    "max_orders_per_hour": 20,
+    "emergency_stop_loss_percent": -5,
+    "max_daily_loss": -10000,
+    "require_manual_approval": false
+  }
+}

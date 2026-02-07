@@ -1,0 +1,35 @@
+{
+  "initial_capital": 100000,
+  "risk_limits": {
+    "max_risk_per_trade": 0.02,
+    "max_portfolio_risk": 0.06,
+    "max_positions": 5,
+    "max_single_position_size": 0.2,
+    "max_correlation_exposure": 0.4,
+    "max_sector_exposure": 0.3,
+    "max_daily_loss": 0.05,
+    "max_drawdown": 0.15
+  },
+  "position_sizing": {
+    "method": "FIXED_FRACTIONAL",
+    "base_risk_percent": 0.02,
+    "kelly_multiplier": 0.25,
+    "volatility_lookback": 20,
+    "min_position_size": 1000,
+    "max_position_size": 50000
+  },
+  "stop_loss": {
+    "method": "ATR_BASED",
+    "atr_multiplier": 2.0,
+    "min_stop_percent": 0.01,
+    "max_stop_percent": 0.05,
+    "trailing_stop": true,
+    "breakeven_threshold": 1.5
+  },
+  "alerts": {
+    "risk_breach_email": false,
+    "risk_breach_sms": false,
+    "console_alerts": true,
+    "log_all_risks": true
+  }
+}

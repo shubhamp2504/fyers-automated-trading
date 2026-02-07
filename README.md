@@ -41,6 +41,7 @@ Based on **FYERS API v3 Documentation**: https://myapi.fyers.in/docsv3
 - Always verify endpoint parameters and response formats from the docs
 - Check for API updates and new features regularly
 - Implement error handling based on documented error codes
+- **Complete API Reference**: See [/api_reference/](api_reference/) folder for all implementations
 
 ### Key API Endpoints Used:
 

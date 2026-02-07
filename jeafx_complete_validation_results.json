@@ -1,0 +1,154 @@
+{
+  "validation_type": "Complete JEAFX Methodology Validation",
+  "timestamp": "2026-02-07T16:45:02.582730",
+  "concepts_tested": [
+    "Zone Creation: Last candle before impulse",
+    "Volume Confirmation: >1.8x average required",
+    "Impulse Requirement: Clear directional move",
+    "Trend Alignment: Only trade with trend",
+    "One-Time Usage: Each zone used once",
+    "Risk-Reward: Minimum 2:1 ratio",
+    "Market Structure: HH/HL vs LL/LH analysis",
+    "Entry Precision: Only within zone boundaries",
+    "Stop Loss: Beyond zone boundary",
+    "Target Setting: Based on structure",
+    "Time Management: Exit if no follow-through"
+  ],
+  "performance": {
+    "total_trades": 6,
+    "win_rate": 0.6666666666666666,
+    "total_pnl": 8000.0,
+    "profit_factor": 4.2,
+    "max_drawdown_percent": 1.25,
+    "rule_adherence_score": 57.57575757575758
+  },
+  "validation_summary": {
+    "concepts_validated": 12,
+    "total_concepts": 11,
+    "validation_completeness": 1.0909090909090908
+  },
+  "detailed_trades": [
+    {
+      "trade_id": "JEAFX_VAL_001",
+      "type": "BUY DEMAND",
+      "trend": "UPTREND",
+      "entry_price": 21500.0,
+      "exit_price": 21600.0,
+      "pnl": 2500.0,
+      "exit_reason": "TARGET_1",
+      "volume_multiplier": 2.3,
+      "risk_reward_ratio": 2.0,
+      "duration_hours": 4.5,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Impulse Requirement: Clear directional move",
+        "Trend Alignment: Only trade with trend",
+        "Risk-Reward: Minimum 2:1 ratio",
+        "Market Structure: HH/HL analysis",
+        "Entry Precision: Only within zone boundaries"
+      ]
+    },
+    {
+      "trade_id": "JEAFX_VAL_002",
+      "type": "SELL SUPPLY",
+      "trend": "DOWNTREND",
+      "entry_price": 21450.0,
+      "exit_price": 21500.0,
+      "pnl": -1250.0,
+      "exit_reason": "STOP_LOSS",
+      "volume_multiplier": 2.1,
+      "risk_reward_ratio": 2.0,
+      "duration_hours": 1.25,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Trend Alignment: Only trade with trend",
+        "Risk-Reward: Minimum 2:1 ratio",
+        "Stop Loss: Beyond zone boundary",
+        "One-Time Usage: Each zone used once"
+      ]
+    },
+    {
+      "trade_id": "JEAFX_VAL_003",
+      "type": "SELL SUPPLY",
+      "trend": "DOWNTREND",
+      "entry_price": 21400.0,
+      "exit_price": 21200.0,
+      "pnl": 5000.0,
+      "exit_reason": "TARGET_2",
+      "volume_multiplier": 2.8,
+      "risk_reward_ratio": 4.0,
+      "duration_hours": 1.5,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Impulse Requirement: Clear directional move",
+        "Trend Alignment: Only trade with trend",
+        "Risk-Reward: Minimum 2:1 ratio",
+        "Market Structure: LL/LH analysis",
+        "Entry Precision: Only within zone boundaries",
+        "Target Setting: Based on structure"
+      ]
+    },
+    {
+      "trade_id": "JEAFX_VAL_004",
+      "type": "BUY DEMAND",
+      "trend": "UPTREND",
+      "entry_price": 21300.0,
+      "exit_price": 21320.0,
+      "pnl": 500.0,
+      "exit_reason": "TIME_EXIT",
+      "volume_multiplier": 1.9,
+      "risk_reward_ratio": 2.0,
+      "duration_hours": 53.0,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Trend Alignment: Only trade with trend",
+        "Time Management: Exit if no follow-through",
+        "Risk-Reward: Minimum 2:1 ratio"
+      ]
+    },
+    {
+      "trade_id": "JEAFX_VAL_005",
+      "type": "BUY DEMAND",
+      "trend": "UPTREND",
+      "entry_price": 21350.0,
+      "exit_price": 21450.0,
+      "pnl": 2500.0,
+      "exit_reason": "TARGET_1",
+      "volume_multiplier": 3.4,
+      "risk_reward_ratio": 2.0,
+      "duration_hours": 1.75,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Impulse Requirement: Clear directional move",
+        "Trend Alignment: Only trade with trend",
+        "Market Structure: HH/HL analysis",
+        "Entry Precision: Only within zone boundaries",
+        "One-Time Usage: Each zone used once"
+      ]
+    },
+    {
+      "trade_id": "JEAFX_VAL_006",
+      "type": "BUY DEMAND",
+      "trend": "CONSOLIDATION",
+      "entry_price": 21375.0,
+      "exit_price": 21325.0,
+      "pnl": -1250.0,
+      "exit_reason": "STOP_LOSS",
+      "volume_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "duration_hours": 1.75,
+      "rules_applied": [
+        "Zone Creation: Last candle before impulse",
+        "Volume Confirmation: >1.8x average required",
+        "Trend Alignment: Only trade with trend",
+        "Risk-Reward: Minimum 2:1 ratio",
+        "Stop Loss: Beyond zone boundary"
+      ]
+    }
+  ]
+}

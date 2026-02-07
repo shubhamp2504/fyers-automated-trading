@@ -1,0 +1,159 @@
+00:00:00
+supply and demand trading is without a doubt one of the best ways to do technical analysis if you can understand supply and demand you'll be able to take some brilliant position so in this video I'm going to teach you pretty much everything that you need to know about supply and demand so that you can start getting insane results if you understand the concept of supply and demand you will have everything you need to carry out profitable technical analysis I'm going to give you absolutely everything
+
+00:00:24
+that you need to know from my 8 years of experience so the first thing you need to know is that markets are driven by by buying and selling the whole reason that markets move is because Traders are buying and selling assets from one another more importantly it's the institutional Traders so in a market we have two types of participants institutions like commercial Banks hedge funds central banks and Retail like me and you individual Traders but us retail Traders only make up a very small percentage of the overall trading volume
+
+00:00:54
+so it's the institutional traders that actually move the market so when these institutional Traders are buying we see the markets move up and when they're selling we see the markets move down and this happens because of supply and demand if there is high demand for an asset the supply gets bought up and then the prices go up because the people that hold the asset can demand more for the transaction so if there's high demand for an asset markets will move up when there's low demand for an asset markets
+
+00:01:20
+will move down now to explain this in a simple form let's say I've got 10 gold coins and no one wants them no one's interested in buying my 10 gold coins at this point I'm going to have to sell the them pretty cheap because otherwise I won't sell them but let's say suddenly something in the market changes and now these gold coins are in high demand while people will want to buy them off me as fast as possible which means if I want to I can up the price and people will still pay for it and every time one
+
+00:01:44
+of these gold coins gets purchased and is taken off the market the prices can go up even more because the supply Falls so high demand means low Supply and this equates to high prices now imagine someone else comes over with 100 more gold coins now they're not so rare so people might not be so interested in buying them the supplies increased the demand might fall therefore prices would fall that is the basic theory of supply and demand and this is pretty much exactly what we see in the market now
+
+00:02:10
+supply and demand zones are plotted on as consolidation areas before large upward or downward movements and a demand is simply a discounted price to buy from while a supply is seen as a premium price to sell out so to explain that quickly if you bought something for $100 and suddenly it was $150 you might see $100 as a bargain so if the market gets back down to that discounted $100 Mark you might buy more the same with the premium price imagine the price of that $100 purchase got to $200 well that's a premium you might want to sell
+
+00:02:42
+there cuz you've doubled your money if the market dips but then comes back to that level it will be seen as a premium so you may want to sell again and this is exactly the kind of thing we see in the market and how we aim to trade supply and demand when a market pulls back to a demand Zone we want to buy and when the market pulls up to a supply Zone we want to sell as I've just stated supply and demand is visualized as zones on a chart specifically consolidation areas before large up or down moves but
+
+00:03:08
+there's a specific way to plot them we'll get into real chart examples but here it is so the common way to Mark out supply and demand zones is to use the last down candle before the up move for a demand zone or the last up candle before a down move for a supply zone now I personally don't follow this methodology I simply hadn't really heard about this and I worked out my own way to do it which I find works better for me and that is to use the last candle before the impulse so an Impulse is a
+
+00:03:35
+large strong movement either up or down in a market in this instance obviously we are seeing the market as bullish the market is pushing up so we have this bullish impulse now the last candle before the impulse is always going to be some form of indecision candle with Wicks either side and a smaller sideways ranging body now if we consider what this candle is actually showing us this is where the significant buying has taken place because this is the final point before the market EXP exped to the
+
+00:04:00
+upside so by using this as our demand Zone we're focusing on the prime area where the mass buying really took place now realistically you can choose whichever one of these methods you like back test them if you want but this is how I do it the last candle before the impulse now I'm going to show you what it looks like and how we can plot these zones on the charts so in this example we have this large bearish impulsive movement and above that we have this sideways candle this indecision candle
+
+00:04:29
+so an indecision candle is defined as such because it's showing indecision it's not showing clear control from buyers or from sellers this candle here has got a large Wick above and a large Wick below which means that buyers attempted to go higher sellers attempted to go lower but really it closes a pretty indecisive candle compare that to this one here where we have a huge selling push with little to no wigs you can see that clearly the sellers are in control so this candle here at the top
+
+00:04:59
+is where in institutional selling entered the market which makes this a supply zone so we're using that last candle before the impulse this is the final point of which the sellers took control of the market and this is where those major sell orders were being placed so the concept now would be that because this was seen as a premium price to sell from in the past if the market is able to get back up into this Zone we would be likely to see another push from sellers if you'd sold your assets up
+
+00:05:28
+here at a high price and you have some more where you wanted to short sell the market well if it gets back up to here again you see this as a premium you'd be happy to get back in or get back out depending whether you're looking to sell more contracts or get out of your existing position so if we play this Market forward you see the market trades up comes into this area of Supply without breaking the high of the zone and then we have a push to the downside which would lead us into a new cell
+
+00:05:53
+trade opportunity now Supply zones are always selling zones so Supply is always the consolidation before a large downward move and we always only want to sell from these areas demand would be the opposite so if we were in an uptrend in this example instead of a downtrend this consolidation before the upward move would be a demand Zone and then the focus would be on buying once the market came into this level when we're trading with the concept of supply and demand we need to make sure we're always in line
+
+00:06:24
+with the trend so let's discuss that just now so in this example we can see the market is trending to the up side we've got this low we have a lower high we have a lower low but then we shift into higher highs now because the market has shifted into a higher high we would anticipate a new higher low to form and a continuation then into new higher highs as we see this Market form if the market is forming and printing higher highs and higher lows we must only be buying demand we must pretty much
+
+00:06:53
+completely ignore any Supply zones now we can use Supply zones for targets but we absolutely shouldn't be looking to sell from Supply zones because we're going to get beat down a lot of the time so you can see that pretty much everywhere in the market we are going to see some form of supply and demand zones so there's Supply Zone there Supply Zone there we even get supply zones in these smaller movements like we get one here we're also going to get one here within this trend but you can see that overall
+
+00:07:20
+because we're in an uptrend these are rarely actually going to hold up and work really well so what we want to do is if the Market's printing higher highs and higher lows we only want to focus on buying demand okay so we would buy this demand Zone and we would buy this demand Zone too but we would absolutely not sell from the supply zones because the Market's trending up so we would be going against the trend so we only buy demand and uptrends Supply is not in our focus and we would only sell Supply in
+
+00:07:50
+downtrends so if we flip the script here and we have a market that's forming lower lows and lower highs we would only be looking to sell from Supply and we would instead ignore all of the demand zones that form within any of these trending movements okay we wouldn't be interested in buying this demand CU it's not going to take us into new considerable highs it's just likely to end up in a loss we always need to consider market efficiency and imbalances when trading supply and demand Concepts here's what I mean now
+
+00:08:16
+when it comes to validating your supply and demand zones there's also one more thing you need to be aware of obviously we want to trade them with the trend but we also need to consider Market imbalances so take a look at these two examples and you'll see they look very similar except on this left example we have a large Wick which is traded into the demand area and then pushed away on the right we don't have that Wick so this price range here the impulsive candle becomes an imbalance okay so in
+
+00:08:45
+the first example we have no imbalance because the market has been retested the demand has been retested before the market pushed away meaning there's no open price range or Gap left open on the right we see the open price range is left open and the demand Zone hasn't been retested tested at all this means that this is a valid demand Zone and this is one we would buy from so we never want to buy from demand zones that have already been retested they're only good one time but we do want to buy from
+
+00:09:11
+demand zones that haven't been retested yet if we have an open imbalance demand that will be a point that we want to buy from remember that tip because it's very important for making sure you don't buy from redundant zones so now let's go to a real chart and I'll show you how we can mark up supply and demand in line with the trending structure and the efficiency and balances that we've discussed and how we can use supply and demand for entries and for Targets on the positions that we take so now we're
+
+00:09:36
+looking at this 4-Hour price action on gbpusd and we can see a market that has just shifted from lower lows and lower highs into a higher high with a break of structure at this level so with the market now breaking into new highs we know this trend is bullish which means we only want to buy we should not be looking for selling opportunities here which means we are going to be focused on demand not supply So within this bearish movement for example we've got a supply Zone just here would we want to
+
+00:10:09
+focus on selling the supply absolutely not we've got another Supply just here but would we be interested in selling this one also no and the reason why is because this Market is clearly bullish so selling Supply is actually pushing against the trend going against the direction of this market so what we would want to do instead is buy from demand now there's a a few areas of demand in this trend that we would want to keep in mind the first one really is going to be around this area just here
+
+00:10:38
+so we can see when we had this break of structure this was one of the candles that actually kicked off this break and there is some imbalance into this level which can be visible just around this area here now would we buy from this area realistically no and the reason for that is because we've also got deeper imbalance down into the extreme now the extreme zone is simply a name we give to a zone that is the furthest away from price so in this price movement from this low up to this High the extreme is going to be the
+
+00:11:11
+lowest Zone okay in that area it's going to be this consolidation point so down here we can see we had consolidation before a large impulsive movement up now this is a little bit trickier to Mark the demand on but I'll show you a simple tip now the last candle before the impulse here is going to be this indecision candle okay from the High to the low it is that candle there now because we have this large Wick extending out of that what we can do is actually just extend the demand down to
+
+00:11:39
+cover this low as well which means our demand Zone would be this area here we do that because we know as long as the market doesn't push beneath this low we should be viable and valid to go into a new trending movement so because we have the imbalance that we've mentioned just previously this is going to be an area we're interested in buying from we're not interested in buying from any of these other demand zones higher up because there's no imbalance every single time we get a demand we get a
+
+00:12:04
+push away a pull back and a retest okay there is no imbalance until we reach this point here yes there's a small imbalance there but there's also deeper imbalance at the extreme which makes this the higher likelihood position for us to take so now what we would want to do is wait for the market to pull down into this area of demand and then we would look for our buying opportunity let's move on to another opportunity as to where we are right now then we can see here that we had the low lower high
+
+00:12:29
+lower low lower high higher high and then we've had this higher low form which has been validated with this break of structure so just here we've had a new break which has pushed us into yet again another phase of upside price action this push drove us into this area of Supply but do we want to trade this Supply no because the market as of right now is bullish so we will be continuing to look for buying opportunities using supply and demand Concepts in this instance it's going to be demand so
+
+00:13:01
+let's move in and focus on this area of price action then with where we are right now where would be the optimal buying zone for an opportunity or for a trade to be taken well it's not going to be this demand at the extreme because this demand at the extreme has already been retested just here it's also not going to be that following demand because that following demand has been retested with a Weck there there and there and yet again it's not going to be this indecision candle before the the
+
+00:13:29
+large impulse away because this has been retested here even if we were to refine this candle down to this one this is also been retested with a tap into the Zone just there so there is no imbalance anywhere lower down than pretty much this point just here but we can see that this demand is imbalance okay we've got this large push away and this has left an imbalance open which is likely to be filled so because the imbalance is open the probability of that becoming a viable point to buy from has gone up a
+
+00:13:58
+pretty significant amount so what we would want to now do is Mark on the last candle before the impulse which is going to be this dogee candle that we've got marked out that is going to be our demand Zone and now if we weigh up all the factors we've discussed so far we've got a demand Zone with an open imbalance we have a clear uptrend and we have no imbalance anywhere lower down in the movement which makes this a high probability point to take buys from so if we wanted to get into this Market we
+
+00:14:25
+would be placing our buy here stop under the zone and then we would Target higher so now let's discuss using supply and demand for entries and for targets well the first thing is of course when we are buying from demand we want to use buy limits very very simple way to trade we can place our buy limit on the demand Zone and we can have stops under the demand zone now for me I generally like to have my stop losses under the next significant point of structure just because it makes it a little bit safer
+
+00:14:53
+so if we consider the structure here we've got this higher high higher low higher high higher low higher high High higher low higher high and then we have this higher low into a new high so realistically this area just here is going to be our next significant structural point so if we put our stop losses under this higher low that means we are pretty much safe even if the market decides to Wick through a little bit and trade just underneath the demand because that is sometimes going to happen so this would be my preferable
+
+00:15:25
+trade stop loss is a little bit on the larger side we are on the 4-Hour time frame you could go with a tighter one like this that is going to improve the risk reward a fair amount but it will also mean you will lose a few more trades so it's just about balancing win rates versus risk reward now supply and demand can also be used in the conflicting way to find Targets so what we would do is actually identify a supply Zone over to the left in the trend that could be seen as a viable level for the market to reach into now
+
+00:15:51
+in this example we've already retested the supply that we just discussed here so this Supply is out of the question we're not interested in seeing the market trade into that there is then no open Supply zones until we reach this point just here but here we've got a pretty clear pretty viable Supply area with imbalance so the imbalance is going to be in this open price move here which means this is a reasonably high probability area for the market to reach into so our trade could look like this
+
+00:16:18
+now we've used demand prot Trend with the concept of imbalance to find our entry for our trade and we've actually then just gone and use Supply conflicting against the trend as our Target because we know if the Market's bullish it's going to continue trading up and if it continues trading up it's going to continue to do that until imbalances have been filled and Supply zones have been retested so this is going to act as really a magnet for price to be drawn towards before any
+
+00:16:44
+meaningful reversal takes place so if we're looking for buyers we can use that magnet point for our trade targets and for our profit taking so here's a great example now of supply and demand used for number one trade entries and number two trade targets as you can see by allowing that trade to play out as we just did we saw the market come in retest this demand area and then we had a significant push in momentum coming in just here the bullish momentum is clearly indicated by these Wicks which
+
+00:17:13
+show rejections of selling pressure and new strength from buyers we can then see that the market pushed up and didn't just push to this high but it actually extended all the way through into that Supply Zone that we just used for our targets you can see as we said these are magnet areas for price and markets are unlikely to reverse significantly until they reach areas of significant Supply or demand so for a Buy trade even though we're not looking to sell Supply we can still use it as a clear Target because
+
+00:17:42
+it's the next meaningful point for any reversal to potentially come underway so this is our Target this is our entry we've went with the safer conservative stop on this point and that brought us a 5.47% return for 1% risk in a very simple supply and demand setup now there's one important important thing you need to understand and that is the concept of inducement or how to approach multiple zones so we can see here that having had this break of structure at this level the Market's now shifted into
+
+00:18:11
+an uptrend we are looking to buy now we've got two zones to pick from and in the previous example just before we ran over that I said the reason that we would want to focus on this Zone the low Zone over this one is because there is still imbalance left open into this area here now this concept that I'm discussing I'm going to give you a bit more clarity on now and it's this concept that makes this top Zone an inducement zone so basically inducement is a bit of a trap it's an area in the market that
+
+00:18:43
+looks like a good place to buy or sell from but will realistically generally land you in a loss so this area here is an inducement cuz some Traders are going to see this and think all right this is a demand zone I'll buy from this Zone but there's actually reason that the market is going to be magnetized lower now part of that is the imbalance that we've already covered into this area of consolidation in the low but there's another aspect to this as well and it's going to be
+
+00:19:08
+liquidity so to talk through liquidity the first thing you need to know is that the liquidity in question sits here okay this line this is what we call equal low liquidity now the reason it's equal lows as you can see we've got one 2 3 equal lows okay now when we see this this is seen also as a support right support and resistance conflicts with supply and demand in a few different ways this is one of them so with a support flow Traders will be looking to buy the market once it retests this level again
+
+00:19:41
+so if the market came down and hit this level Traders would then look to buy from that point now because we know there's going to be a significant number of retail buys there there's going to be a significant number of retail stop losses underneath that level okay general education suggests when you buy a support you put your stop- loss under the low now this area of orders this area of liquidity causes a problem for buyers because we have this huge amount of liquidity this huge amount of orders
+
+00:20:08
+and the markets react to orders it's unlikely then that we're going to react from this point and get a new solid movement to the upside it's a lot more likely that the market will be drawn through into the area where the orders are situated to then react from the orders when the transactions are taking place so this area here at the top the one we first discussed this is an inducement area because there's not real massive reasons for the market to react from this point there's still liquidity
+
+00:20:34
+in the market meaning these equal lows there's still orders and transactions to be filled underneath those equal lows and then of course there's still the imbalance into the demand Zone the demand Zone obviously as we know is the area where significant buying has taken place before so it's seen as the discount price level for the market to react from again we know that Traders like this price area for buying if the market gets into here that's where significant buying is going to take
+
+00:20:59
+place again it's not particularly going to take place from the equal low liquidity it's not going to take place from the imbalance it's going to be from the demand so we're looking for the market to at least trade into this area of demand for a new push to the upside to take place which means we can ignore this area up here which we would classify as the inducement zone so that's the inducement this is the true Zone and this is the zone that we want to take our buys from not the higher
+
+00:21:26
+area this same theory of inducement can be used and seen a lot of times in the market and I just want to make sure that you're aware of it so that you can be trading from the high probability points like this one and not getting caught up buying or selling from inducement zones now there is a brilliant way that you can use supply and demand to get better entries and improve the risk versus reward of the positions you take which can double or triple your profits and that is refining zones for this example
+
+00:21:54
+we're just going to Target the highs cuz I really just want to draw Focus to the entry here we would get a 7 0 7% or we just call it 7.05% return on this trade that is awesome very very good stuff if we went for the more conservative entry clearing that recent low we're looking at a 4.5% potential from this trade at 1% risk which is also incredible however we can refine the zone to improve the risk reward more so this here is the 4-Hour demand okay this is a 4-Hour chart that we're looking at and this is
+
+00:22:24
+a 4-Hour indecision candle if we go to the hourly what we will now see is within that 4-Hour dogee we've got deeper imbalance and that brings us into this area just here this smaller indecision candle the last candle before the impulse so now we've got new imbalance just there which means that this 4H hour Zone can be refined down to a smaller 1hour Zone and you'll see that this 1hour zone is actually about half the size so if we were to bring the entry down to the 1 hour point where we
+
+00:22:59
+get in leaving the stop loss exactly the same still clearing that recent low if we then go to the 4-Hour time frame you'll see that we've just extended this profit Target from 4.56% to 6.85% so we've added nearly another 2% onto this trade without actually having to do anything except for tightening the entry and remember that 7.07% or 7.05% more aggressive trade well that's now going to be double we could get 14% out of this trade simply by refining The Zone because what we've done is half the
+
+00:23:32
+size of the entry we can half the size of the stop loss and by halfing the stop loss it means we can use double the position size uh without risking any more dollars okay so we could risk $100 here instead of $100 over a larger amount by doubling the position size which means the risk reward we're going to get out of it we're going to make double the profits on the movement just with that small refinement so that right there is the biggest trick that you can use to improve your risk versus reward
+
+00:23:57
+simply refining zones to a time frame relevant position now I want to mention that is important as well see here we went from the 4H hour to the hourly we only want to be jumping like that we don't want to go from the 4H hour to the 5m minute that's over refining that will lead you to M trades but you could go from the daily to the 4 Hour or from the 4 Hour to the hourly or from the hourly to the 13 minute and so on and so on and that is how you can maximize the profits on your trades just like this one so
+
+00:24:23
+that's pretty much everything I wanted to cover in this class I hope you've enjoyed it if you have check out this class next or click the link in the description to check out my free course which is going to teach you how to build a trading system for yourself thank you for watching and I'll see you in the next video
+

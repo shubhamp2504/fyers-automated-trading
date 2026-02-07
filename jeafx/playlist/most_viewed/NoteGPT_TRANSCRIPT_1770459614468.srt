@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:50,000
+there are two different price action trading Concepts that when combined create one of my personal favorite entry models and these Concepts actually build up the backbone of the majority of my trading strategy they are liquidity and Market structure in this class I want to give you a deep understanding of both and share with you an entry model and a trading system that you can start to apply to make some good trades and make some profits so with that said and done let's get into the learning Market
+
+2
+00:00:25,000 --> 00:01:18,000
+Structure Theory suggests that markets move in three phases we have uptrends we we have downtrends and we have consolidation now an uptrend is simply a phase where a market is continually moving to the upside and through an uptrend we only want to buy a market a downtrend is the opposite where a market is continually moving to the downside and through these markets we only want to sell now a consolidation is generally where we just move sideways there's no real trading opportunities most of the
+
+3
+00:00:52,000 --> 00:01:55,000
+time inside of consolidation ranges so we pretty much want to eliminate this and just focus on uptrends and downtrends to determine whether a market is in an uptrend or a downtrend we want to look at the highs and the lows in price so we can see in the uptrend we form higher highs and higher lows a market that is forming new highs and lows higher than the previous highs and lows is an uptrend okay we can see the Market's clearly moving up but we Define that by the fact that the market is continuing to push past these previous
+
+4
+00:01:23,000 --> 00:02:20,000
+highs right so this here is what we call a break of structure it's this push upwards past the higher high high this as well is a break of structure and the actual break of structure we talk about is taking place at these points because we get these breaks in structure that continue pushing the market higher this is indeed an uptrend a downtrend is pretty much the same but flipped upside down so in a downtrend we are forming lower lows and lower highs and what that simply means is every low and every high
+
+5
+00:01:52,000 --> 00:02:52,000
+that forms in the market is lower than the previous once again we indicate the continuation of a downtrend with these breaks of structure which is when the market pushes past a previous low the next thing you need to know is that a trending movement is made up of two main parts we have impulsive movements and we have corrective movements so impulses and Corrections now an Impulse is a prot trend movement it's the movement that breaks the structure so in an uptrend after we form a higher high a corrective
+
+6
+00:02:22,000 --> 00:03:15,000
+move will pull down to form a higher low and then the impulsive move is defined by the movement that breaks through the previous higher high forming a new higher high so those are the impulsive moves the prot trend larger movements that break structure corrective moves are just pullbacks that don't really break any significant structure but they allow the formation of new higher lows to keep us understanding which way the market is going now eventually Trends come to an end we can Define when
+
+7
+00:02:48,000 --> 00:03:51,000
+they're coming to an end by looking at the higher lows so here we have this impulsive bullish Trend we have an uptrend in this market we only want to buy but what happens if the market comes down and breaks through this low like this well now we would get a new impulsive move this movement here but this would be a bearish impulse the reason we know this is an Impulse is because it's broken through the previous higher low which breaks this higher high higher low formation and breaks the uptrend so from this point onwards we
+
+8
+00:03:20,000 --> 00:04:18,000
+would instead now be expecting the market to make a lower high and then a new lower low and then new lower highs and lower lows to continue this Market in downtrending fashion where we basically shift from this bullish Trend into a bearish one so here is a view of that full piece of trending structure we have bullish impulses and Corrections where the market is continually breaking through new higher highs and making new structural higher highs and lows then we have that break which is a bearish
+
+9
+00:03:49,000 --> 00:04:36,000
+impulse that pushes past the higher low forming a lower low then we get a pullback corrective move forming a lower high then we break more structure into new lower lows and lower highs and so on so that is how a trend works and it pretty much runs like this all of the time the majority of the time in the market the Market's going to be trending one way or the other except for of course those consolidation moves that we said we don't want to trade now let's talk about liquidity liquidity refers to
+
+10
+00:04:12,000 --> 00:05:06,000
+orders or money now markets move due to orders and money and transactions taking place and passing hands in the market now to understand liquidity we just want to think about where people are generally buying and selling from so if we know in this trending movement here we have a low a swing low and we have a s swing high and these have formed in the market already we know there's going to be some level of buyers down here we know there's going to be some level of sellers at the high okay people trade
+
+11
+00:04:40,000 --> 00:05:34,000
+different strategies generally once the markets make highs and lows whether it's based on supply and demand support and resistance or any other concept people will be buying above lows selling above highs now these Traders generally follow simple advice the majority of them do any Trader who buys at a swing low or just after a swing low is formed will generally have stop- losses underneath the low anyone who sells will generally have stop losses just above the high it's rare that you buy somewhere in a
+
+12
+00:05:07,000 --> 00:05:58,000
+trend and then just put your stop loss in that trending movement as well generally you want to clear highs and lows it's common education yes it works but it also creates a lot of liquidity so these areas that we've just marked become liquidity okay there's liquidity here there's liquidity here now why is that well that is because there's a significant number of orders at either of these levels and markets react to orders the reason markets move is because of injections of buying orders
+
+13
+00:05:32,000 --> 00:06:21,000
+and selling orders now if we know that multiple Buys have been taking place here potentially thousands by different Traders well now we know there's a collection of thousands of different orders waiting here in the form of stop losses as well as this we have breakout traders who would have sell stop orders here thinking if the market comes and breaks through this low I want to be triggered into a sell to take the market lower so we have stop losses and we have sell stop orders under here in the
+
+14
+00:05:57,000 --> 00:06:47,000
+thousands which creates liquidity we have the same up here at the top but we have stop losses for Sellers and then we have buy stops as well so there's a whole lot of orders transactions awaiting at the highs and the lows now because we know that markets react to orders where is the market most likely to react now somewhere randomly in the middle of this area well probably not it's more likely to see significant reactions once highs or lows have been taken because that is where the orders
+
+15
+00:06:22,000 --> 00:07:18,000
+are going to be that could potentially Drive the new movements in the market so we may hit the swing high and then see a significant sell lower hit the swing low see a significant move higher that is the kind of premise of liquidity forming above swing highs and swing lows it's simply the market reacting to areas where the majority of the orders are situated okay now as we discussed there are ways to understand where this is likely to take place so looking over here now we have a market that's formed
+
+16
+00:06:49,000 --> 00:07:46,000
+a bearish impulse then we have two highs which are level with one another and we have two almost three lows which are level with one another now from a support and resistance approach which the majority of Traders or beginners are actually looking at we have a support and a resistance okay what are Traders looking to do at support and resistance well generally what we've just discussed right Traders want to buy Above support so there will be buy orders placed here hoping the market moves higher and
+
+17
+00:07:18,000 --> 00:08:11,000
+Traders want to sell below resistance so we know from this there are going to be stop losses down here there are going to be stop losses up here and we also get those sell stops and buy stops as we discussed okay so up here we have stop losses from buyers but we also have buy stops from breakout traders who are looking for a new high to form down here we have the stop losses and the sell stops from Traders looking for the opposite we have these stop- losses for buyers but we also have sell stops for
+
+18
+00:07:45,000 --> 00:08:37,000
+breakout traders who are expecting to see a kind of break retest scenario in the market and remember these are very very common Concepts to trade sometimes you get stuck in the bubble of kind of price action Concepts on YouTube but you'd be underestimating how many people around the world are trading with support resistance and these basic similar Concepts where is the liquidity then is it sitting in the middle of this slow moving range no it's at the highs and the lows it's above here it's below
+
+19
+00:08:11,000 --> 00:09:03,000
+here this is where the liquidity is this is where those major reactions are likely to take place so what we would be looking for as Traders is for the low to go and then to look for some opportunity to trade higher or for the market to trade Above This high and then this is where we would look for opportunities to trade lower so when we understand the liquidity here what we actually do is get two beneficial things we get potential targets at these highs and lows because if we know that the market
+
+20
+00:08:37,000 --> 00:09:25,000
+is likely to attack these highs and lows well then we can find opportunity to trade towards those levels for example if the market swept this low well now if we saw a reaction a reversal in the price we could look for a long opportunity back up towards this High because we know it's likely the Market's going to come and attack this liquidity as well and if the structure then agrees with us the structure being what we've just discussed and don't worry we'll elaborate on this more then we have good
+
+21
+00:09:01,000 --> 00:09:55,000
+means for getting into a position and tackling the other points of liquidity now as you can imagine the other thing it's good for is entries as I've just highlighted if the market was to come all the way up here and we know there's more liquidity down here we can use this area now that it's been swept to find an opportunity to sell down so we would actually look for that structural change so just like this a market that's changing from higher highs and higher lows into lower lows and lower highs we
+
+22
+00:09:28,000 --> 00:10:26,000
+could sell there and we could look to tackle the next point of liquidity and probably now you can see how we're starting to formulate a trading setup so this is the entry model that I want to show you in this video using structure and liquidity together let me break it down what we've got is a bearish market we have bearish impulses and then we have the small corrective moves as discussed now in a bearish market we are seeing these lower lows and lower highs form we then want to identify points of
+
+23
+00:09:57,000 --> 00:10:54,000
+liquidity in the form of those equal highs as we just discussed so where we saw the resistance level we know there's stop losses and buy stops Above This level that's what we want to identify now sometimes this is going to formulate inside of a bearish movement and when you see this this becomes a very high probability setup so we are looking for a market that is bearish forming a notable trend of lower lows and lower highs then we want to identify that liquidity in the form of equal highs or
+
+24
+00:10:25,000 --> 00:11:23,000
+a resistance and then once the market breaks those equal highs or break breaks that resistance level comes into the area where the liquidity is we will use a final tip called supply and demand to find our entry now this Zone here is a supply zone so it is basically a area just before a large bearish impulsive movement down and the concept is once the market comes into this level again we would then look to sell so after we come up into it we see this as a high probability area to sell from because
+
+25
+00:10:54,000 --> 00:11:48,000
+we've seen significant selling taking place from this level before which shows that this is a level that sellers accept as a premium price to sell from it's a good level to sell from the market gets back here it's seen as a good premium to sell from again so just to recap this one more time before I show you an actual example we are looking for a bearish trend we want to make sure the market is forming notable lower lows and lower highs when it does we are then looking for the formation of some equal
+
+26
+00:11:21,000 --> 00:12:18,000
+highs some resistance then once that resistance is taken we are looking to sell using that final tip the supply Zone that we just discussed okay now this can work on any time frame and don't worry if this is a little bit confusing now you will see it in real markets in just one moment now one final question you might have about this entry model is how is this not a break of structure right as we said when the market breaks through a previous high or low this should be seen as a break of structure so why are we now looking to
+
+27
+00:11:50,000 --> 00:12:40,000
+sell even though we've had what we could call a break of structure why don't we look instead for a continuation into new buys well the reason for that is because of how the market re reacts to liquidity right if this wasn't equal highs if this wasn't a resistance and this didn't have a significant amount of liquidity above it then we would indeed see this break as a breaking structure but because it's equal highs because the resistance is still here the stop loss is the buy
+
+28
+00:12:15,000 --> 00:13:07,000
+stops all of this stuff is here and the remainder of this bearish trend is still intact then it remains possible and highly likely that this will be a false break of structure where instead of breaking and then continuing we break just to sweep liquidity o the equal highs so if there wasn't any equal highs here and the market looked like this instead then yes we would look to buy but because we have that resistance because we have those equal highs it becomes high probability to sell so when
+
+29
+00:12:41,000 --> 00:13:38,000
+you're trying to work out whether it's a Breakin structure or a sweep of liquidity just consider that do we have a point of significant liquidity like equal highs or resistance level if we do then it's likely the break will actually fail and actually just sweep liquidity before continuing the selloff now let's get to an example of this on the chart take a look at this price structure here we have a large upward move forming a higher high pull back to form a higher low a push up to form a new higher high
+
+30
+00:13:09,000 --> 00:14:11,000
+then we have a higher low a higher high and then we have this break-in structure here which brings us into lower lows Okay so we've just made that shift from bullish into bearish right we've seen this structure shifting down now we have a bearish impulse this becomes a bearish trend or bearish market so this is our high this is is our low the market then comes back and forms this lower high before coming down to make this lower low now the reason that we don't really want to consider this intermediate
+
+31
+00:13:40,000 --> 00:14:30,000
+structure is because this is what we call the consolidation that we looked at right we said there's three phases consolidations we don't really want to trade but we can see that this area here the market didn't really make any movements other than sideways it's only when we broke through into the next low at this level here that we continued with the bearish trend so it's kind of just a pause in the trend where the market does nothing but go sideways so at this point we have a
+
+32
+00:14:05,000 --> 00:15:04,000
+bearish trend we've got the impulses that we want to see we've got the smaller Corrections and then we've got this messy consolidation now what forms during a consolidation well consolidation areas is where we are going to get these equal highs that we just discussed so here we can see one two pushes up and then a little bit lower down we've got a bunch of other pushes as well we could pretty safely say that this area here as a or if we wanted to get really refined it would be this area that I've just marked
+
+33
+00:14:34,000 --> 00:15:29,000
+out is seen as a resistance in price so there are going to be sellers somewhere within this range there will be breakout Traders at this point now looking for a break Above This high so traders who are expecting if this happens their buy stops will trigger them into buys for a break retest continuation and there will also be sellers taking place anywhere inside of this range could be here could be even where we are now could have been previous at this resistance retest whatever but these sellers are going to
+
+34
+00:15:02,000 --> 00:15:59,000
+generally in Mass at least a lot of them as a generalization have stop losses above these equal highs and above this high so this creates an area where there is a significant amount of liquidity orders or transactions which means if the market reaches back into this point such as a sweep above the swing High we would then look for a continuation lower that's what we would expect to see okay if we then consider the final thing we discussed which was a supply Zone I said a supply Zone was a consolidation area
+
+35
+00:15:31,000 --> 00:16:27,000
+before a large downward move now this candle here is a huge Wick where we opened and closed at the same level so this is what we consider as our consolidation area we are looking for what I call the last candle before the impulse this is the last candle before the bearish impulse that broke structure so this here that large candle that large bearish candle is our supply Zone okay so now we've got a few things let me annotate we've got our low which indicates a new bearish trend we we've
+
+36
+00:15:59,000 --> 00:16:57,000
+got our supply Zone which indicates a solid level to sell from Once the market reacts to it once again because it was seen as a premium to sell from before and we've got uh equal High liquidity just above the consolidation which is going to be pretty much this level here right we can draw this out it is relative equal Highs at this time so we're missing it by about one pip but we can clearly see this is a resistance level uh they don't have to be to the PIP direct equal high stone but they
+
+37
+00:16:28,000 --> 00:17:28,000
+have to be very very very close to the point that you know when we take a look at this you can see how refined and how close together these levels truly are so with what we can see here on the chart let me map out the entry model once again that we just discussed so we have our bearish Trend we have the formation of equal highs within that bearish Trend we then sweep above the equal highs and then sell back below so the equal highs just here the supply Zone just here and this has to be taking place in a bearish
+
+38
+00:16:57,000 --> 00:17:52,000
+trend right so we see bearish so we see bearish impulses equal highs sell from Supply once equal highs have been swept bearish impulse equal highs sell from Supply once equal highs have been swept so how do we approach this then for an actual trade position well what we're now looking for as Traders if you haven't already guessed it is for the market to sweep equal highs trade into Supply and then we will be looking to sell the market down from there so at this point we can go ahead and place an
+
+39
+00:17:25,000 --> 00:18:13,000
+order so our sell limit would be at this level here the best way to get these trades it's going to be a sell limit because a sell limit just triggers you in once the market reaches that level you get triggered into a sell and then if the market reverses as we expect it to you will then profit for the stop loss I like to keep it above the high right we can put it above the supply Zone that would be fine simply because we're so close to the high here I'd actually put it just above the high just
+
+40
+00:17:49,000 --> 00:18:39,000
+in case the market decides to Wick or anything that is going to make your trade a little bit safer if you just always clear the highs you don't need to kind of push your luck for the biggest possible risk reward that's going to be fine now targets wise what we can do because we are now in a bearish trend is just look for open areas below for targets I like to use once again either points of liquidity so swing lows or just areas of demand which would be basically the opposite of a supply Zone
+
+41
+00:18:14,000 --> 00:19:08,000
+a consolidation before a large upward move so if we go take a look at the bottom of this Movement we have here our area of consolidation before this large upward move we could use this as a Target okay that is our demand Zone trade would look like this and that would be the entry model pretty much prepped out so this would be a solid trade we now have this price range and this demand that we can trade through so what we would do at this point is simply place a solit order and then allow the market to run through what we're looking
+
+42
+00:18:41,000 --> 00:19:41,000
+for is for the market to trade into the area of Supply as we've just seen happen and then sell off from there towards wherever our Target may be in this new bearish trend now you would have been safe with your stop above the Zone we went a little bit higher and put it above the high which is completely fine this would be 4.6 9% return for every 1% risked and it followed that entry model perfectly we have bearish impulses equal highs sweep equal highs sell from Supply and Target further down in the trend and
+
+43
+00:19:11,000 --> 00:20:04,000
+by the way just to highlight it yes you can trade this the other way if we were in a bearish trend that shifted into a bullish Trend we could actually trade this using equal lows and demand it works exactly the same both ways doesn't matter if you're buying or selling you just need to be following the correct Trend so if we begin a new uptrend Trend you can use equal lows and demand zones to buy instead of sell using the exact same entry model so that is a simplistic entry model that you can use to start
+
+44
+00:19:38,000 --> 00:20:29,000
+putting liquidity and Market structure together into action in the markets to make profits from your trading what you should do next is go to the top Link in the description of this video and sign up to my completely free system building course I show you how to turn this into a trading strategy then how to back test it Journal it and validate it so you can trade it live with an understanding of the win Ates and other important metrics if you don't have a system you won't win it trading so take advantage of it it's
+
+45
+00:20:04,000 --> 00:20:13,000
+completely free and with that said and done I'll see you in the next video
+

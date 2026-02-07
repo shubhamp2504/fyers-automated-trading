@@ -1,0 +1,24 @@
+{
+  "fyers": {
+    "client_id": "",
+    "access_token": "",
+    "redirect_uri": "https://trade.fyers.in/api-login/redirect-to-app",
+    "response_type": "code",
+    "state": "sample_state"
+  },
+  "trading": {
+    "live_trading": false,
+    "max_orders_per_minute": 10,
+    "order_timeout": 300,
+    "slippage_tolerance": 0.5,
+    "max_position_size": 50000,
+    "risk_per_trade": 0.02
+  },
+  "symbols": {
+    "NSE:NIFTY50-INDEX": "NSE:NIFTY2470724700CE",
+    "NSE:NIFTYBANK-INDEX": "NSE:BANKNIFTY2470751500CE",
+    "NSE:RELIANCE-EQ": "NSE:RELIANCE-EQ",
+    "NSE:TCS-EQ": "NSE:TCS-EQ",
+    "NSE:INFY-EQ": "NSE:INFY-EQ"
+  }
+}
