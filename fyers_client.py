@@ -46,9 +46,9 @@ class FyersClient:
             self.client_id = config['fyers']['client_id']
             self.access_token = config['fyers']['access_token']
             
-            print(f"🔑 Initializing Fyers API Client...")
-            print(f"   📱 Client ID: {self.client_id[:10]}...")
-            print(f"   🎯 Using LIVE FYERS API with REAL DATA")
+            print(f"Initializing Fyers API Client...")
+            print(f"   Client ID: {self.client_id[:10]}...")
+            print(f"   Using LIVE FYERS API with REAL DATA")
             
             # Initialize official Fyers API components
             self.fyers = fyersModel.FyersModel(client_id=self.client_id, token=self.access_token)
@@ -61,7 +61,7 @@ class FyersClient:
             self._verify_connection()
                 
         except Exception as e:
-            print(f"❌ Error initializing FYERS client: {e}")
+            print(f"Error initializing FYERS client: {e}")
             raise
     
     def _verify_connection(self):
@@ -69,13 +69,13 @@ class FyersClient:
         try:
             profile = self.portfolio.get_profile()
             if profile:
-                print(f"✅ Connected to REAL Fyers account")
-                print(f"   👤 Account: {profile.get('name', 'Unknown')}")
-                print(f"   📧 Email: {profile.get('email_id', 'Unknown')}")
+                print(f"Connected to REAL Fyers account")
+                print(f"   Account: {profile.get('name', 'Unknown')}")
+                print(f"   Email: {profile.get('email_id', 'Unknown')}")
             else:
-                print(f"⚠️ Connected but unable to fetch profile")
+                print(f"Connected but unable to fetch profile")
         except Exception as e:
-            print(f"⚠️ Connection verification failed: {e}")
+            print(f"Connection verification failed: {e}")
 
     def place_order(self, symbol: str, qty: int, side: str, order_type: str = "MARKET", 
                    product_type: str = "INTRADAY", limit_price: float = 0, stop_price: float = 0, 
@@ -89,9 +89,9 @@ class FyersClient:
         api_side = side_map.get(side.upper(), 1)
         api_type = type_map.get(order_type.upper(), 1)
         
-        print(f"📊 Placing LIVE order via Fyers API:")
-        print(f"   🎯 Symbol: {symbol}")
-        print(f"   📈 Side: {side} | Qty: {qty} | Type: {order_type}")
+        print(f"Placing LIVE order via Fyers API:")
+        print(f"   Symbol: {symbol}")
+        print(f"   Side: {side} | Qty: {qty} | Type: {order_type}")
         
         return self.orders.place_order(
             symbol=symbol,
@@ -113,9 +113,9 @@ class FyersClient:
         if not end_date:
             end_date = datetime.now().strftime('%Y-%m-%d')
         
-        print(f"📈 Fetching REAL historical data from Fyers API:")
-        print(f"   🎯 Symbol: {symbol} | Resolution: {resolution}")
-        print(f"   📅 Period: {start_date} to {end_date}")
+        print(f"Fetching REAL historical data from Fyers API:")
+        print(f"   Symbol: {symbol} | Resolution: {resolution}")
+        print(f"   Period: {start_date} to {end_date}")
         
         try:
             response = self.market_data.get_historical_data(
@@ -126,7 +126,7 @@ class FyersClient:
                 cont_flag=1  # Add continuous flag
             )
         except Exception as e:
-            print(f"❌ Error getting historical data: {e}")
+            print(f"Error getting historical data: {e}")
             return None
         
         if response and response.get('s') == 'ok' and 'candles' in response:
@@ -135,15 +135,15 @@ class FyersClient:
             df = pd.DataFrame(candles, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
             df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
             df.set_index('timestamp', inplace=True)
-            print(f"✅ Retrieved {len(df)} candles")
+            print(f"Retrieved {len(df)} candles")
             return df
         else:
-            print(f"⚠️ API Response: {response}")
+            print(f"API Response: {response}")
         return None
     
     def get_live_quotes(self, symbols: List[str]) -> Optional[Dict]:
         """Get live market quotes using official Fyers API"""
-        print(f"📊 Fetching LIVE quotes from Fyers API for {len(symbols)} symbols")
+        print(f"Fetching LIVE quotes from Fyers API for {len(symbols)} symbols")
         response = self.market_data.get_quotes(symbols)
         
         # Handle the actual response format from Fyers API
@@ -162,17 +162,17 @@ class FyersClient:
     
     def get_market_depth(self, symbol: str) -> Optional[Dict]:
         """Get market depth using official Fyers API"""
-        print(f"📊 Fetching LIVE market depth from Fyers API: {symbol}")
+        print(f"Fetching LIVE market depth from Fyers API: {symbol}")
         return self.market_data.get_market_depth(symbol)
     
     def get_positions(self) -> Optional[List[Dict]]:
         """Get current positions using official Fyers API"""
-        print(f"📊 Fetching LIVE positions from Fyers API")
+        print(f"Fetching LIVE positions from Fyers API")
         return self.portfolio.get_positions()
     
     def get_holdings(self) -> Optional[List[Dict]]:
         """Get holdings using official Fyers API"""
-        print(f"📊 Fetching LIVE holdings from Fyers API")
+        print(f"Fetching LIVE holdings from Fyers API")
         return self.portfolio.get_holdings()
     
     def get_funds(self) -> Optional[Dict]:

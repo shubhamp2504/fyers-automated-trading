@@ -1,0 +1,155 @@
+{
+  "trading_system": {
+    "name": "Ultimate Money Machine",
+    "version": "1.0",
+    "created": "2026-02-08T12:23:18.261949",
+    "total_strategies": 8
+  },
+  "capital_allocation": {
+    "initial_capital": 100000,
+    "risk_per_trade": 0.02,
+    "max_daily_risk": 0.05,
+    "position_sizing": "RISK_BASED",
+    "strategy_weights": {
+      "index_intraday_NIFTY50-INDEX": 0.14756844161595592,
+      "index_intraday_NIFTYBANK-INDEX": 0.15383417631458962,
+      "index_intraday_TCS-EQ": 0.15383417631458962,
+      "mean_reversion_NIFTY50-INDEX": 0.07903161770856189,
+      "mean_reversion_NIFTYBANK-INDEX": 0.07903161770856189,
+      "mean_reversion_TCS-EQ": 0.07903161770856189,
+      "multi_timeframe_NIFTY50-INDEX": 0.15383417631458962,
+      "multi_timeframe_NIFTYBANK-INDEX": 0.15383417631458962
+    }
+  },
+  "strategies": {
+    "index_intraday_NIFTY50-INDEX": {
+      "weight": 0.14756844161595592,
+      "parameters": {
+        "ema_fast": 9,
+        "ema_slow": 26,
+        "rsi_period": 21,
+        "profit_target": 20,
+        "stop_loss": 10
+      },
+      "expected_return": 64.68999864065871,
+      "win_rate": 69.01163992643868,
+      "max_drawdown": 5.212299277203867,
+      "enabled": true
+    },
+    "index_intraday_NIFTYBANK-INDEX": {
+      "weight": 0.15383417631458962,
+      "parameters": {
+        "ema_fast": 12,
+        "ema_slow": 26,
+        "rsi_period": 21,
+        "profit_target": 30,
+        "stop_loss": 20
+      },
+      "expected_return": 62.50229550930292,
+      "win_rate": 68.25592887400009,
+      "max_drawdown": 5,
+      "enabled": true
+    },
+    "index_intraday_TCS-EQ": {
+      "weight": 0.15383417631458962,
+      "parameters": {
+        "ema_fast": 12,
+        "ema_slow": 26,
+        "rsi_period": 21,
+        "profit_target": 30,
+        "stop_loss": 20
+      },
+      "expected_return": 62.50229550930292,
+      "win_rate": 68.25592887400009,
+      "max_drawdown": 5,
+      "enabled": true
+    },
+    "mean_reversion_NIFTY50-INDEX": {
+      "weight": 0.07903161770856189,
+      "parameters": {
+        "bb_period": 30,
+        "bb_std": 2.5,
+        "rsi_oversold": 30,
+        "rsi_overbought": 80
+      },
+      "expected_return": 81.70231135657625,
+      "win_rate": 66.70727987613975,
+      "max_drawdown": 9.732445113414652,
+      "enabled": true
+    },
+    "mean_reversion_NIFTYBANK-INDEX": {
+      "weight": 0.07903161770856189,
+      "parameters": {
+        "bb_period": 30,
+        "bb_std": 2.5,
+        "rsi_oversold": 30,
+        "rsi_overbought": 80
+      },
+      "expected_return": 81.70231135657625,
+      "win_rate": 66.70727987613975,
+      "max_drawdown": 9.732445113414652,
+      "enabled": true
+    },
+    "mean_reversion_TCS-EQ": {
+      "weight": 0.07903161770856189,
+      "parameters": {
+        "bb_period": 30,
+        "bb_std": 2.5,
+        "rsi_oversold": 30,
+        "rsi_overbought": 80
+      },
+      "expected_return": 81.70231135657625,
+      "win_rate": 66.70727987613975,
+      "max_drawdown": 9.732445113414652,
+      "enabled": true
+    },
+    "multi_timeframe_NIFTY50-INDEX": {
+      "weight": 0.15383417631458962,
+      "parameters": {
+        "trend_alignment_req": 2,
+        "signal_confluence_min": 2,
+        "timeframe_weights": [
+          0.3,
+          0.4,
+          0.3
+        ]
+      },
+      "expected_return": 28.98434617643838,
+      "win_rate": 80.77583082168182,
+      "max_drawdown": 5,
+      "enabled": true
+    },
+    "multi_timeframe_NIFTYBANK-INDEX": {
+      "weight": 0.15383417631458962,
+      "parameters": {
+        "trend_alignment_req": 2,
+        "signal_confluence_min": 2,
+        "timeframe_weights": [
+          0.3,
+          0.4,
+          0.3
+        ]
+      },
+      "expected_return": 28.98434617643838,
+      "win_rate": 80.77583082168182,
+      "max_drawdown": 5,
+      "enabled": true
+    }
+  },
+  "risk_management": {
+    "max_drawdown_limit": 0.15,
+    "daily_loss_limit": 0.03,
+    "correlation_limit": 0.7,
+    "position_limits": {
+      "max_positions_per_strategy": 3,
+      "max_total_positions": 10,
+      "max_symbol_exposure": 0.25
+    }
+  },
+  "execution": {
+    "scan_frequency_seconds": 30,
+    "monitor_frequency_seconds": 10,
+    "order_timeout_seconds": 300,
+    "slippage_tolerance": 0.002
+  }
+}

@@ -1,0 +1,18 @@
+curl --location --request POST 'https://api.fyers.in/api/v2/span_margin' \ --header 'Authorization: UC0KMO****-102:eyJ0eX*****' \--header 'Content-Type: application/json' \ --data-raw '{
+         "data": [{
+           "symbol": "NSE:BANKNIFTY23NOV44400CE",
+           "qty": 50,
+           "side": -1,
+           "type": 2,
+           "productType": "INTRADAY",
+           "limitPrice": 0.0,
+           "stopLoss": 0.0
+         }, {
+           "symbol": "NSE:BANKNIFTY23NOVFUT",
+           "qty": 50,
+           "side": -1,
+           "type": 2,
+           "productType": "INTRADAY",
+           "limitPrice": 0.0,
+           "stopLoss": 0.0
+           }]

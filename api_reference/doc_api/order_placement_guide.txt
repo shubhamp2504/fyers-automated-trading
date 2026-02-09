@@ -1,0 +1,160 @@
+Order Placement Guide
+Order Placement Guide
+
+The order placement process requires you to carefully input several parameters at the time of making the request. There are several validations which are required to be done before sending the request.
+Order Types
+
+    Limit Order
+        type: 1
+        A limit order allows you to buy or sell an asset at a specific price (limitPrice) or better. It will only be executed at the specified price or lower for a buy order, and at the specified price or higher for a sell order.
+
+    Sample input:
+
+    { "symbol": "NSE:SBIN-EQ", "qty": 100, "type": 1, "side": 1, "productType": "INTRADAY", "limitPrice": 100, "stopPrice": 0, "validity": "DAY", "stopLoss": 0, "takeProfit": 0, "offlineOrder": false, "disclosedQty": 0, "isSliceOrder" : false }
+
+    Market Order
+        type: 2
+        A market order allows you to buy or sell an asset at the current market price. The limitPrice and stopPrice should be set to 0, as it is not used in this order type.
+
+    Sample input:
+
+    { "symbol": "NSE:SBIN-EQ", "qty": 100, "type": 2, "side": 1, "productType": "INTRADAY", "limitPrice": 0, "stopPrice": 0, "validity": "DAY", "stopLoss": 0, "takeProfit": 0, "offlineOrder": false, "disclosedQty": 0, "isSliceOrder" : false }
+
+    Stop Order / SL-M
+        type: 3
+        A stop order is designed to limit losses on a position. It becomes a market order when the stopPrice is reached. The stopPrice is the trigger price at which the market order will be placed.
+        The stopPrice must not be higher than the Last Traded Price (ltp) for a sell order and not lower than the ltp for a buy order.
+
+    Sample input:
+
+    { "symbol": "NSE:SBIN-EQ", "qty": 100, "type": 3, "side": 1, "productType": "INTRADAY", "limitPrice": 0, "stopPrice": 100, "validity": "DAY", "stopLoss": 0, "takeProfit": 0, "offlineOrder": false, "disclosedQty": 0, "isSliceOrder" : false }
+
+    Stop Limit Order / SL-L
+        type: 4
+        A stop-limit order combines features of a stop order and a limit order. It triggers a limit order once the stopPrice is reached.
+        The stopPrice must not be higher than the Last Traded Price (ltp) for a sell order and not lower than the ltp for a buy order.
+        The stopPrice must be lower than the limitPrice for a buy order and higher than the limitPrice for a sell order.
+
+    Sample input:
+
+    { "symbol": "NSE:SBIN-EQ", "qty": 100, "type": 4, "side": 1, "productType": "INTRADAY", "limitPrice": 100, "stopPrice": 95, "validity": "DAY", "stopLoss": 0, "takeProfit": 0, "offlineOrder": false, "disclosedQty": 0, "isSliceOrder" : false }
+
+Product Types
+
+    Intraday
+        Used to place orders which will be bought and sold the same day
+        Order type can be anything (Market, Limit, Stop, and Stop Limit)
+
+    CNC
+        Used to place orders only in stocks which will be carried forward
+        Order type can be anything (Market, Limit, Stop, and Stop Limit)
+
+    Margin
+        Used to place orders in derivative contracts which will be carried forward
+        Order type can be anything (Market, Limit, Stop, and Stop Limit)
+
+    Cover Order (CO)
+        stopLoss is a mandatory input
+        stopLoss price is given in points denominated. (Eg: SBIN LTP = 300. For the above example, for buy CO, if you want to put stop loss as 298 then you have to pass "stopLoss" value as 2 (difference between ltp and your desired stop loss) )
+        Note:
+        1. "stopLoss" value can be float but should be multiple of 0.0500.
+        2. Now let's say if you don't provide stopLoss value as multiple of 0.0500 then you can find this error message {'code': -50, 'message': 'StopLoss not a multiple of tick size 0.0500', 's': 'error'}
+        The order type can be either market or limit (If the market order, then the stop loss price should not be higher than the ltp in buy and lower than the ltp for sell. If the limit order, then the stop loss price should not be higher than the limit price in buy and lower than the limit for sell)
+        Validity should be “DAY.”
+        Disclosed quantity should be 0.
+
+    Bracket Order (BO)
+        stopLoss is a mandatory input
+        takeProfit is a mandatory input
+        The stopLoss and takeProfit are denominated in rupees above and below the trade price. (Eg: SBIN LTP = 300. So the user can give a target of Rs. 10 and stop loss or Rs. 5.)
+        Order type can be either market, limit, stop, or stop limit
+        Validity should be “DAY.”
+        Disclosed quantity should be 0
+
+    Margin Trading Facility (MTF)
+        This order type is for placing trades with additional margin.
+        MTF orders require activation.
+        Only stocks from the approved MTF list are allowed.
+        Supported order types: Market, Limit, Stop, and Stop Limit.
+
+Price Validations
+
+For all transaction requests (Order placement / modification), the price input should be in accordance with the exchange provided tick size for the particular symbol.
+
+    Tick size is applicable for all price inputs (Limit / stop / stopLoss / target)
+    Each symbol will have its own tick size
+    All price inputs have to be in multiples of the tick size
+    The tick size is available in the symbol master
+
+Quantity Validations
+
+For all transaction requests (Order placement / modification), the quantity input should be in accordance with the exchange provided minimum lot size.
+Segment 	Minimum Quantity Details
+Equities 	The quantity will be in multiples of 1
+Equity Derivatives 	The quantity will be in multiples of the lot size specified by the exchange
+Currency Derivatives 	The quantity will be in multiples of 1
+Commodity Derivatives 	The quantity will be in multiples of 1
+Order Tag
+
+For all Order placement requests where tags are passed they should meet following requirements.
+
+    Ordertag string should be Alphanumeric i.e. no space or special characters will be allowed.
+    Ordertag string should not exceed length of 30 characters and should have minimum length of 1 character.
+    Ordertag string cannot be your clientID or string Untagged.
+    Ordertagging is currently not supported for ProductType BO & CO. Orders with ordertag for CO/BO product Type will be rejeceted.
+
+Auto-Order Slice
+
+Use the auto-slice feature to place large orders that exceed the exchange’s freeze-quantity limits.
+
+Enable it by setting "isSliceOrder": true in the order request. When enabled, the system automatically splits the order into smaller quantities based on the applicable freeze limit. Each slice is submitted as a separate order with its own "Order ID".
+
+Note:
+
+    Slicing is only allowed for NSE CM, NFO and BFO.
+    Maximum slices per request: 10.
+
+
+Sample input :
+
+{ "symbol": "NSE:BANKNIFTY25NOV58900PE", "qty": 3150, "type": 2, "side": 1, "productType": "MARGIN", "limitPrice": 0, "stopPrice": 0, "disclosedQty": 0, "validity": "DAY", "offlineOrder": false, "stopLoss": 0, "takeProfit": 0, "IsSliceOrder": true }
+
+Response Output :
+
+{
+  "code": 1101,
+  "message": "Order Slice placed successfully",
+  "data": [
+    {
+      "statusCode": 200,
+      "body": {
+        "code": 1101,
+        "message": "Successfully placed order",
+        "s": "ok",
+        "id": "25120400000372"
+      },
+      "statusDescription": "OK"
+    },
+    {
+      "statusCode": 200,
+      "body": {
+        "code": 1101,
+        "message": "Successfully placed order",
+        "s": "ok",
+        "id": "25120400000373"
+      },
+      "statusDescription": "OK"
+    },
+    {
+      "statusCode": 200,
+      "body": {
+        "code": 1101,
+        "message": "Successfully placed order",
+        "s": "ok",
+        "id": "25120400000374"
+      },
+      "statusDescription": "OK"
+    }
+  ]
+}
+  

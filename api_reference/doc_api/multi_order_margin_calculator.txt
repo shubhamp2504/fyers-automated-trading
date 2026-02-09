@@ -1,0 +1,40 @@
+curl --location --request POST 'https://api-t1.fyers.in/api/v3/multiorder/margin' \ --header 'Authorization: UC0KMO****-102:eyJ0eX*****' \--header 'Content-Type: application/json' \ --data-raw '{
+  {
+    "data": [
+      {
+        "symbol": "NSE:NIFTY23DECFUT",
+        "qty": 50,
+        "side": 1,
+        "type": 2,
+        "productType": "MARGIN",
+        "limitPrice": 0.0,
+        "stopLoss": 0.0,
+        "stopPrice": 0.0,
+        "takeProfit": 0.0
+      },
+      {
+        "symbol": "NSE:SBIN-EQ",
+        "qty": 50,
+        "side": 1,
+        "type": 2,
+        "productType": "MARGIN",
+        "limitPrice": 0.0,
+        "stopLoss": 0.0,
+        "stopPrice": 0.0,
+        "takeProfit": 0.0
+      }
+    ]
+  }
+  ------------------------------------------------------------------------------------------------------------------------------------------
+  Sample Success Response 
+  ------------------------------------------------------------------------------------------------------------------------------------------
+  { 
+    "code": 200, 
+    "message": "", 
+    "data": { 
+        "margin_avail": 1999.9, 
+        "margin_total": 147738.05634886527, 
+        "margin_new_order": 147738.05634886527 
+    }, 
+    "s": "ok" 
+  } 

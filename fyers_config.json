@@ -1,15 +1,14 @@
 {
   "_WARNING": "LIVE TRADING CONFIGURATION - REAL MONEY AT RISK",
   "_SOURCE": "https://myapi.fyers.in/docsv3",
-  
   "fyers": {
     "client_id": "E3U954K3LF-100",
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcGh0VlBWZXZRTERoa2duTnljOVBIcGlYY0dVbTJmMkJPRWNXLW1rbzVRTW5nN1ZZaWNqUEx2bFdCYVFUOW13eUgwUUhGUEJFYnQtcUVtc2FlcW1rbnl5bjFlWWpiNEt3ekY3dWdTLUZ0UkVCaVMxQT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI4NTA0MDlkMzU4ZTk5NWZmMDI0YTM0NmQ1ODdiMGIxNDRiZGY1ZDk3ZGVhYWZhZWY4YTgwYzA1NSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFIOTIxMTYiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MDUxMDYwMCwiaWF0IjoxNzcwNDQ0MTExLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzA0NDQxMTEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.N-Fejt58FbaybMRctAW258CaRnHFZ0UnWITgywZo88o",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcGlDeUtZdlNfYUx1LURhellwbHFjdDlUQ0pwLXBaLXB6dHZieGtmMi05RFBfYXp5WXp1ZlhvT2w1MTc0TnZHa0FTYkFRak9Idkt5c1lQa01zX2QzMFBqMldyYlVkbHN6ckR6WVlFWFVmVEdRMUpZMD0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIzNGM0NTVjMzZjYzYyMjIxNDA0NzA4ZGQ0YzY3Yjg5YWVlZmRhMTI4NzdhZjhlN2QzZmE2ZDJmYiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFIOTIxMTYiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MDU5NzAwMCwiaWF0IjoxNzcwNTMxOTc4LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzA1MzE5NzgsInN1YiI6ImFjY2Vzc190b2tlbiJ9.WbYJPPn0-utQ8rUhdHBR1-LrV38Ka06mYYqtQrj4c98",
     "redirect_uri": "https://trade.fyers.in/api-login/redirect-to-app",
     "response_type": "code",
-    "state": "sample_state"
+    "state": "sample_state",
+    "secret_key": "ALPBL0X8FB"
   },
-  
   "trading": {
     "_CRITICAL": "ALL SETTINGS BELOW AFFECT REAL MONEY TRADES",
     "live_trading": true,
@@ -24,17 +23,15 @@
     "max_daily_loss": 5000,
     "max_open_positions": 3
   },
-  
   "symbols": {
     "_NOTE": "Official NSE symbols for live trading",
     "NIFTY_INDEX": "NSE:NIFTY50-INDEX",
     "BANKNIFTY_INDEX": "NSE:NIFTYBANK-INDEX",
     "NIFTY_CURRENT_MONTH_CALL": "NSE:NIFTY2470724700CE",
-    "NIFTY_CURRENT_MONTH_PUT": "NSE:NIFTY2470724700PE", 
+    "NIFTY_CURRENT_MONTH_PUT": "NSE:NIFTY2470724700PE",
     "BANKNIFTY_CURRENT_MONTH_CALL": "NSE:BANKNIFTY2470751500CE",
     "BANKNIFTY_CURRENT_MONTH_PUT": "NSE:BANKNIFTY2470751500PE"
   },
-  
   "risk_management": {
     "enabled": true,
     "position_size_limit": 50000,
@@ -43,11 +40,16 @@
     "stop_trading_on_limit": true,
     "emergency_exit_enabled": true
   },
-  
   "market_hours": {
     "start_time": "09:15",
-    "end_time": "15:30", 
+    "end_time": "15:30",
     "timezone": "Asia/Kolkata",
-    "trading_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    "trading_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ]
   }
 }

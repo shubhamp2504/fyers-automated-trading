@@ -1,0 +1,188 @@
+Appendix
+Fytoken
+Indicator 	Format 	Description
+Exchange 	2 Digits 	Exchange of the symbol
+Segment 	2 Digits 	Segment of the symbol
+Expiry 	6 Digits 	Format: YYMMDD
+Eg: 200827
+Exchange Token` 	From 2 upto 6 Digits 	The token assigned for the symbol by the exchange
+Eg:22
+Exchanges
+Possible Values 	Description
+10 	NSE (National Stock Exchange)
+11 	MCX (Multi Commodity Exchange)
+12 	BSE (Bombay Stock Exchange)
+Segments
+Possible Values 	Description
+10 	Capital Market
+11 	Equity Derivatives
+12 	Currency Derivatives
+20 	Commodity Derivatives
+Available Exchange-Segment Combinations
+Exchange 	Segment 	Exchange Code 	Segment Code
+NSE 	Capital Market 	10 	10
+NSE 	Equity Derivatives 	10 	11
+NSE 	Currency Derivatives 	10 	12
+NSE 	Commodity Derivatives 	10 	20
+BSE 	Capital Market 	12 	10
+BSE 	Equity Derivatives 	12 	11
+BSE 	Currency Derivatives 	12 	12
+MCX 	Commodity Derivatives 	11 	20
+Instrument Types
+Possible Values 	Description
+. 	CM segment
+0 	EQ (EQUITY)
+1 	PREFSHARES
+2 	DEBENTURES
+3 	WARRANTS
+4 	MISC (NSE, BSE)
+5 	SGB
+6 	G - Secs
+7 	T - Bills
+8 	MF
+9 	ETF
+10 	INDEX
+50 	MISC (BSE)
+. 	FO segment
+11 	FUTIDX
+12 	FUTIVX
+13 	FUTSTK
+14 	OPTIDX
+15 	OPTSTK
+. 	CD segment
+16 	FUTCUR
+17 	FUTIRT
+18 	FUTIRC
+19 	OPTCUR
+20 	UNDCUR
+21 	UNDIRC
+22 	UNDIRT
+23 	UNDIRD
+24 	INDEX_CD
+25 	FUTIRD
+. 	COM segment
+11 	FUTIDX
+30 	FUTCOM
+31 	OPTFUT
+32 	OPTCOM
+33 	FUTBAS
+34 	FUTBLN
+35 	FUTENR
+36 	OPTBLN
+37 	OPTFUT (NCOM)
+Symbology Format
+Segment 	Format 	Examples
+Equity 	{Ex}:{Ex_Symbol}-{Series} 	NSE:SBIN-EQ, NSE:ACC-EQ,
+NSE:MODIRUBBER-BE
+BSE:SBIN-A, BSE:ACC-A,
+BSE:MODIRUBBER-T
+Equity Futures 	{Ex}:{Ex_UnderlyingSymbol}{YY}{MMM}FUT 	NSE:NIFTY20OCTFUT,
+NSE:BANKNIFTY20NOVFUT,
+BSE:SENSEX23AUGFUT
+Equity Options (Monthly Expiry) 	{Ex}:{Ex_UnderlyingSymbol}{YY}{MMM}{Strike}{Opt_Type} 	NSE:NIFTY20OCT11000CE,
+NSE:BANKNIFTY20NOV25000PE ,
+BSE:SENSEX23AUG60400CE
+Equity Options (Weekly Expiry) 	{Ex}:{Ex_UnderlyingSymbol}{YY}{M}{dd}{Strike}{Opt_Type}
+refer here for possible values of {M} 	NSE:NIFTY2010811000CE,
+NSE:NIFTY20O0811000CE,
+BSE:SENSEX2381161000CE,
+NSE:NIFTY20D1025000CE
+Currency Futures 	{Ex}:{Ex_CurrencyPair}{YY}{MMM}FUT 	NSE:USDINR20OCTFUT,
+NSE:GBPINR20NOVFUT
+Currency Options (Monthly Expiry) 	Ex}:{Ex_CurrencyPair}{YY}{MMM}{Strike}{Opt_Type} 	NSE:USDINR20OCT75CE,
+NSE:GBPINR20NOV80.5PE
+Currency Options (Weekly Expiry) 	{Ex}:{Ex_CurrencyPair}{YY}{M}{dd}{Strike}{Opt_Type} 	NSE:USDINR20O0875CE,
+NSE:GBPINR20N0580.5PE
+NSE:USDINR20D1075CE
+Commodity Futures 	{Ex}:{Ex_Commodity}{YY}{MMM}FUT 	MCX:CRUDEOIL20OCTFUT,
+MCX:GOLD20DECFUT
+Commodity Options (Monthly Expiry) 	{Ex}:{Ex_Commodity}{YY}{MMM}{Strike}{Opt_Type} 	MCX:CRUDEOIL20OCT4000CE,
+MCX:GOLD20DEC40000PE
+Symbology Possible Values
+Variable 	Explanation 	Possible Values
+{Ex} 	This is the exchange on which the symbol is trading 	NSE, BSE, MCX
+{YY} 	This is the last 2 digits of the year 	2019 will be 19
+2020 will be 2020
+2021 will be 21
+2022 will be 22
+{MMM} 	For monthly expiries such as futures and options,
+this value is the 3 characters of the month. The month
+will always be denoted in uppercase. 	JAN
+FEB
+MAR
+APR
+MAY
+JUN
+JUL
+AUG
+SEP
+OCT
+NOV
+DEC
+{M} 	For weekly expiries, this value represents the month
+of expiry but with only 1 character. This is a mix
+of numbers as well as characters. 	Jan => 1
+Feb => 2
+Mar => 3
+Apr => 4
+May => 5
+Jun => 6
+Jul => 7
+Aug => 8
+Sep => 9
+Oct => O (Letter)
+Nov => N
+Dec => D
+{dd} 	This is used in weekly expiries. This represents
+the date of the month on which the contract is
+going to expire. This value will always be 2 characters. 	01
+06
+10
+25
+30
+{Opt_Type} 	This represents whether the contract is call or put 	Call Option => CE,
+Put Option => PE
+{Strike} 	This is the strike price of the option contract 	11000
+75.5
+Product Types.
+Possible Values 	Description
+CNC 	For equity only
+INTRADAY 	Applicable for all segments
+MARGIN 	Applicable only for derivatives
+CO 	Cover Order
+BO 	Bracket Order
+MTF 	Margin Trading Facility
+Order Types.
+Possible Values 	Description
+1 	Limit order
+2 	Market order
+3 	Stop order (SL-M)
+4 	Stoplimit order (SL-L)
+Order Status
+Possible Values 	Description
+1 	Cancelled
+2 	Traded / Filled
+3 	For future use
+4 	Transit
+5 	Rejected
+6 	Pending
+Order Sides
+Possible Values 	Description
+1 	Buy
+-1 	Sell
+Position Sides
+Possible Values 	Description
+1 	Long
+-1 	Short
+0 	Closed position
+Holding Types
+Possible Values 	Description
+T1 	The shares are purchased but not yet delivered to the demat account.
+HLD 	The shares are purchased and are available in the demat account.
+Order Sources
+Possible Values 	Description
+M 	Mobile
+W 	Web
+R 	Fyers One
+A 	Admin
+ITS 	API
